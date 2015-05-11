@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Arcadius Kazimierski's Software Engineering Blog]]></title>
+  <subtitle><![CDATA[Software Engineering]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://arcadiusk.com/"/>
+  <updated>2015-05-11T09:25:04.000Z</updated>
+  <id>http://arcadiusk.com/</id>
+  
+  <author>
+    <name><![CDATA[Arcadius Kazimierski]]></name>
+    <email><![CDATA[arcadiusk@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Arcadius Wiki Android App]]></title>
+    <link href="http://arcadiusk.com/2015-05-08-Arcadius-Wiki-Android-App/"/>
+    <id>http://arcadiusk.com/2015-05-08-Arcadius-Wiki-Android-App/</id>
+    <published>2015-05-09T02:25:11.000Z</published>
+    <updated>2015-05-11T09:25:04.000Z</updated>
+    <content type="html"><![CDATA[<h6 id="Description">Description</h6><p> Arcadius Wiki App fetches batches of random articles from Wikipedia (at user specified frequency) using dictionary of English words. When the articles arrive the user has the choice (in Settings Menu) to be notified by sound, vibration as well as on the Android Wear Watch. In addition to Wikipedia articles Arcadius Wiki App makes calls to Shutterstock API (with Authentication) to fetch corresponding photos.</p>
+<h6 id="App_Permissions">App Permissions</h6><p>Arcadius Wiki App uses the following 4 permissions:</p>
+<ol>
+<li><p>INTERNET to perform network access and three more permissions required by the sync adapter:</p>
+</li>
+<li><p>READ_SYNC_SETTINGS,</p>
+</li>
+<li><p>WRITE_SYNC_SETTINGS and</p>
+</li>
+<li><p>AUTHENTICATE_ACCOUNTS</p>
+</li>
+</ol>
+<h6 id="Content_Provider">Content Provider</h6><p>Arcadius Wiki App’s ContentProvider is called ArcWikiProvider using SQLite database called arcadius.db with one table called arcwiki.</p>
+<h6 id="Backend">Backend</h6><p>Arcadius Wiki App talks to two backend APIs:</p>
+<ol>
+<li><p>Wikipedia.org API</p>
+</li>
+<li><p>Shutterstock.com API</p>
+</li>
+</ol>
+<h6 id="Sync_Adapter_and_talking_over_network">Sync Adapter and talking over network</h6><p>Arcadius Wiki App uses HttpURLConnection via SyncAdapter called ArcWikiSyncAdapter for all the three calls: 1. to Wikipedia to fetch the article and 2. to Shutterstock twice: first to authenticate and get url for the matching keyword and second to fetch the photo from url obtained in the previous call.</p>
+<h6 id="Loader">Loader</h6><p>Arc Wiki App implements WIKIARTICLE_LOADER</p>
+<h6 id="User/App_State">User/App State</h6><p>Below are 4 examples of how Arc Wiki App correctly preserves and restores the app state:</p>
+<ol>
+<li><p>When an activity is displayed, the same activity appears on rotation.</p>
+</li>
+<li><p>User text input is preserved on rotation.</p>
+</li>
+<li><p>When the app is resumed after the device wakes from sleep (locked) state, the app returns the user to the exact state in which it was last used.</p>
+</li>
+<li><p>When the app is relaunched from Home or All Apps, the app restores the app state as closely as possible to the previous state.</p>
+</li>
+</ol>
+<h6 id="Notifications">Notifications</h6><p>Arcadius Wiki App uses notifications to indicate a context change when new batch of articles from Wikipedia arrived. User is notified by sound, vibration and on Android Wear Watch with message: “Arcadius Wiki ­- Check out the new articles <articlename>“. When user taps on the notification the user is taken to Arcadius Wiki App.</articlename></p>
+<h6 id="Share_Action_Provider">Share Action Provider</h6><p>Arcadius Wiki Appp implements ShareActionProvider to share articles with an outside application like messenger, email or note taking app.</p>
+<h6 id="Broadcast_Events_implementation">Broadcast Events implementation</h6><p>Arcadius Wiki App intercepts broadcast events and responds to them to display article content and photos properly.</p>
+<h6 id="Tablet_landscape_screenshot">Tablet landscape screenshot</h6><p><img src="../images/Wiki-Tablet-Landscape.png" alt="Tablet landscape screenshot" title="Tablet landscape screenshot"></p>
+<h6 id="Tablet_portrait_screenshot">Tablet portrait screenshot</h6><p><img src="../images/Wiki-Tablet-Portrait.png" alt="Tablet portrait screenshot" title="Tablet portrait screenshot"></p>
+<h6 id="Phone_details_landscape_screenshot">Phone details landscape screenshot</h6><p><img src="../images/Wiki-Phone-Landscape.png" alt="Phone details landscape screenshot" title="Phone details landscape screenshot"></p>
+<h6 id="Phone_details_portrait_screenshot">Phone details portrait screenshot</h6><p><img src="../images/Wiki-Phone-Portrait.png" alt="Phone details portrait screenshot" title="Phone details portrait screenshot"></p>
+<h6 id="Phone_main_landscape_screenshot">Phone main landscape screenshot</h6><p><img src="../images/Wiki-Phone-Land-Main.png" alt="Phone main landscape screenshot" title="Phone main landscape screenshot"></p>
+<h6 id="Phone_main_portrait_screenshot">Phone main portrait screenshot</h6><p><img src="../images/Wiki-Phone-Portrait-Main.png" alt="Phone main portrait screenshot" title="Phone main portrait screenshot"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h6 id="Description">Description</h6><p> Arcadius Wiki App fetches batches of random articles from Wikipedia (at user specified frequency) u]]>
+    </summary>
+    
+      <category term="API" scheme="http://arcadiusk.com/tags/API/"/>
+    
+      <category term="Android" scheme="http://arcadiusk.com/tags/Android/"/>
+    
+      <category term="Google" scheme="http://arcadiusk.com/tags/Google/"/>
+    
+      <category term="Shutterstock" scheme="http://arcadiusk.com/tags/Shutterstock/"/>
+    
+      <category term="Wikipedia" scheme="http://arcadiusk.com/tags/Wikipedia/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Fork the Brisket]]></title>
+    <link href="http://arcadiusk.com/2015-02-22-Fork-the-Brisket/"/>
+    <id>http://arcadiusk.com/2015-02-22-Fork-the-Brisket/</id>
+    <published>2015-02-22T21:52:58.000Z</published>
+    <updated>2015-02-24T17:01:56.000Z</updated>
+    <content type="html"><![CDATA[<p>Following previous article in which we tasted Bloomberg’s Brisket let’s now fork the repo from github, clone on to our machine and look at the code.</p>
+<h6 id="Assuming_you_have_Git_installed,_to_clone_directly_from_Bloomberg’s_Github_open_your_terminal_and_run_the_following:">Assuming you have Git installed, to clone directly from Bloomberg’s Github open your terminal and run the following:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/bloomberg/brisket.git</span><br></pre></td></tr></table></figure>
+<h6 id="Or,_assuming_you_have_node-js_and_node_package_manager_npm,_install_Yeoman:">Or, assuming you have node.js and node package manager npm, install Yeoman:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g yo</span><br></pre></td></tr></table></figure>
+<h6 id="To_install_generator-brisket_run:">To install generator-brisket run:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g generator-brisket</span><br></pre></td></tr></table></figure>
+<h6 id="Create_a_directory_for_your_application:">Create a directory for your application:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir firstapp</span><br><span class="line"><span class="built_in">cd</span> firstapp</span><br></pre></td></tr></table></figure>
+<h6 id="Generate_using_previously_installed_Yeoman:">Generate using previously installed Yeoman:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yo brisket</span><br></pre></td></tr></table></figure>
+<h6 id="Run_your_application_via_grunt:">Run your application via grunt:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grunt</span><br></pre></td></tr></table></figure>
+<p>The Brisket application will be available at port 8080. This is how it looks like in the browser. Note the Chrome browser developer tools on the right showing console logging from the code shown below:</p>
+<p><img src="../images/b1_browser.png" alt="Brisket in the Browser"></p>
+<p>Let’s take a look at the folder structure. This is how it looks right after generating:</p>
+<p><img src="../images/b1_folders.png" alt="Brisket Folder Structure"></p>
+<p>After expanding folder structure under app/javascripts you can see the contents of ServerApp.js and ClientApp.js:</p>
+<p><img src="../images/b2_folders.png" alt="Brisket Server and Client Code"></p>
+<p>You can see above separate files for ServerApp.js and ClientApp.js. Those files provide ability to customize your server and client - unshared 10% of the codebase for each one.</p>
+<p>Brisket provides Express.js engine and it’s built on Backbone.js which uses routers to assemble models and views in order to write to the page. In Brisket routers are responsible of returning Backbone view.</p>
+<p>First request from the browser is sent to Express.js which then forwards the request to your application (also called backbone rendering engine). It takes request as an input and returns a single view.</p>
+<p>Brisket uses promises instead of callbacks so after fetching data it returns a promise of a view. Eventually the view is passed to the server renderer and combined with the layout then returned back to the browser as HTML.</p>
+<p>When the browser receives the view, the application picks up where it left off (after initial request), and can handle user input. Any user manipulation (second request) is handled by the application in the browser rather than going all the way to the server.</p>
+<p>The application works the same as on the server because it can accept requests and returns views which are sent to the client renderer which updates the layout.</p>
+<p>Search Engine Optimization SEO is critical for Bloomberg therefore Brisket provides a functionality to add title and meta tags in an easy way.</p>
+<p>You can find the documentation in the readme file at <a href="https://github.com/bloomberg/brisket" target="_blank" rel="external">https://github.com/bloomberg/brisket</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Following previous article in which we tasted Bloomberg’s Brisket let’s now fork the repo from github, clone on to our machine and look a]]>
+    </summary>
+    
+      <category term="Bloomberg" scheme="http://arcadiusk.com/tags/Bloomberg/"/>
+    
+      <category term="Brisket" scheme="http://arcadiusk.com/tags/Brisket/"/>
+    
+      <category term="framework" scheme="http://arcadiusk.com/tags/framework/"/>
+    
+      <category term="isomorphic" scheme="http://arcadiusk.com/tags/isomorphic/"/>
+    
+      <category term="javascript" scheme="http://arcadiusk.com/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Brisket for the Web: a Taste]]></title>
+    <link href="http://arcadiusk.com/2015-02-16-Brisket-for-the-Web-a-Taste/"/>
+    <id>http://arcadiusk.com/2015-02-16-Brisket-for-the-Web-a-Taste/</id>
+    <published>2015-02-17T04:45:37.000Z</published>
+    <updated>2015-02-22T18:53:39.000Z</updated>
+    <content type="html"><![CDATA[<p>David Lucia and Wayne Warner from Bloomberg came down to Fullstack Academy of Code last Tuesday and presented their javascript framework that not many people know about.</p>
+<p>They called it Brisket because it was developed in-house so its name had to start with the letter “B” as in Bloomberg.</p>
+<p>Brisket is an isomorphic javascript framework that enables web developers to focus on application logic instead of the location of modules.</p>
+<p>The cornerstone of isomorphic concept is sharing the code between the client and the server with the goal to leave only up to about 10 percent to each of the two. That is very different than 50/50 average.</p>
+<p>It was designed with the following principle in mind: to share templates, application logic, data models and more in order to create fast sites that render on the server side but feel like a single page application on the client side.</p>
+<p>Brisket is built on Backbone.js so it offers a familiar structure of models, views and controllers/routers. The difference is that instead of running in the browser, Brisket is environment neutral. </p>
+<p>Designed to use promises (rather than callbacks) makes the asynchronous code avoid “callback hell”.</p>
+<p>Other isomorphic javascript frameworks:</p>
+<p>Asana Luna<br><a href="https://asana.com/luna" target="_blank" rel="external">https://asana.com/luna</a><br> <img align="left" src="../images/f_asana.png" alt="Asana Luna"><br><br><br></p>
+<p>Mojito<br><a href="https://developer.yahoo.com/cocktails/mojito/" target="_blank" rel="external">https://developer.yahoo.com/cocktails/mojito/</a><br> <img align="left" src="../images/f_mojito.png" alt="Mojito"><br><br><br></p>
+<p>LoopBack<br><a href="http://loopback.io/" target="_blank" rel="external">http://loopback.io/</a><br> <img align="left" src="../images/f_LoopBack.png" alt="LoopBack"><br> <br><br></p>
+<p>Invisible.js<br><a href="http://invisiblejs.github.io/" target="_blank" rel="external">http://invisiblejs.github.io/</a><br> <img align="left" src="../images/f_invisible.png" alt="Invisible.js"><br><br><br></p>
+<p>Meteor<br><a href="https://www.meteor.com/" target="_blank" rel="external">https://www.meteor.com/</a><br> <img align="left" src="../images/f_meteor.png" alt="Meteor"><br><br><br></p>
+<p>Rendr<br><a href="https://github.com/rendrjs/rendr" target="_blank" rel="external">https://github.com/rendrjs/rendr</a><br> <img align="left" src="../images/f_rendr.png" alt="Rendr" height="50" width="170"><br><br><br></p>
+<p>React<br><a href="http://facebook.github.io/react/" target="_blank" rel="external">http://facebook.github.io/react/</a><br> <img align="left" src="../images/f_react.png" alt="React"><br><br><br></p>
+<p>Derby<br><a href="http://derbyjs.com/" target="_blank" rel="external">http://derbyjs.com/</a><br> <img align="left" src="../images/f_derby.png" alt="DERBY"><br><br><br></p>
+<p>Ezel<br><a href="http://ezeljs.com/" target="_blank" rel="external">http://ezeljs.com/</a><br> <img align="left" src="../images/f_ezel.png" alt="Ezel"><br><br><br></p>
+<p>Cassis<br><a href="https://github.com/tantek/cassis/" target="_blank" rel="external">https://github.com/tantek/cassis/</a><br> <img align="left" src="../images/f_cassis.png" alt="Cassis"><br> <br><br></p>
+<p>Este<br><a href="https://github.com/Steida/este" target="_blank" rel="external">https://github.com/Steida/este</a><br> <img align="left" src="../images/f_este.png" alt="Este" height="50" width="170"><br><br><br></p>
+<p>Sara.js<br><a href="https://github.com/sarajs/Sara" target="_blank" rel="external">https://github.com/sarajs/Sara</a><br> <img align="left" src="../images/f_sara.png" alt="Sara.js"><br><br><br></p>
+<p>Flatiron<br><a href="http://flatironjs.org/" target="_blank" rel="external">http://flatironjs.org/</a><br> <img align="left" src="../images/f_flatiron.png" alt="flatiron for node.js" height="50" width="180"><br> <br><br></p>
+<p>MooTools<br><a href="http://mootools.net/" target="_blank" rel="external">http://mootools.net/</a><br> <img align="left" src="../images/f_mootools.png" alt="mootools"><br><br><br></p>
+<p>Taunus<br><a href="https://github.com/taunus/taunus" target="_blank" rel="external">https://github.com/taunus/taunus</a><br> <img align="left" src="../images/f_taunus.png" alt="Taunus"><br> <br><br></p>
+<p>Chaplin<br><a href="http://chaplinjs.org/" target="_blank" rel="external">http://chaplinjs.org/</a><br> <img align="left" src="../images/f_chaplin.png" alt="Chaplin"><br> <br><br></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>David Lucia and Wayne Warner from Bloomberg came down to Fullstack Academy of Code last Tuesday and presented their javascript framework ]]>
+    </summary>
+    
+      <category term="Bloomberg" scheme="http://arcadiusk.com/tags/Bloomberg/"/>
+    
+      <category term="Brisket" scheme="http://arcadiusk.com/tags/Brisket/"/>
+    
+      <category term="framework" scheme="http://arcadiusk.com/tags/framework/"/>
+    
+      <category term="isomorphic" scheme="http://arcadiusk.com/tags/isomorphic/"/>
+    
+      <category term="javascript" scheme="http://arcadiusk.com/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Don't Deploy Your API Keys to Public Github Repos]]></title>
+    <link href="http://arcadiusk.com/2014-12-10-Don-t-deploy-your-API-keys-to-public-gihub-repos/"/>
+    <id>http://arcadiusk.com/2014-12-10-Don-t-deploy-your-API-keys-to-public-gihub-repos/</id>
+    <published>2014-12-10T05:58:33.000Z</published>
+    <updated>2015-02-22T16:53:15.000Z</updated>
+    <content type="html"><![CDATA[<p>Horror stories abound describing problems people have when crawlers intercept their API keys enabling malicious use. Take extra steps to ensure you never push your keys and secrets for public viewing in github.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Horror stories abound describing problems people have when crawlers intercept their API keys enabling malicious use. Take extra steps to ]]>
+    </summary>
+    
+      <category term="API key" scheme="http://arcadiusk.com/tags/API-key/"/>
+    
+      <category term="git" scheme="http://arcadiusk.com/tags/git/"/>
+    
+      <category term="github" scheme="http://arcadiusk.com/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Very good IMAP library for .NET]]></title>
+    <link href="http://arcadiusk.com/2014-11-11-Best-IMAP-library-for-NET/"/>
+    <id>http://arcadiusk.com/2014-11-11-Best-IMAP-library-for-NET/</id>
+    <published>2014-11-11T05:44:15.000Z</published>
+    <updated>2015-02-23T16:55:09.000Z</updated>
+    <content type="html"><![CDATA[<p>If you need full access to your email supporting IMAP from .NET here is a very good open-source library called ImapX.</p>
+<p>ImapX is a cross-platform IMAP library for .NET supporting .Net 2.0 - 4.5, Mono and Windows Phone.</p>
+<p>Current stable version is ImapX 2.0.0.16 released on May 1, 2014.</p>
+<p>I give it 5 stars because ImapX just works with my C# deployment. It supports attachements which makes it superior to Atom Inbox feed, easy to implement and well documented.</p>
+<p>You can read the documentation here <a href="https://imapx.codeplex.com/" target="_blank" rel="external">https://imapx.codeplex.com/</a><br> <img align="left" src="../images/imapx.png" alt="https://imapx.codeplex.com/"><br> <br><br></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>If you need full access to your email supporting IMAP from .NET here is a very good open-source library called ImapX.</p>
+<p>ImapX is a c]]>
+    </summary>
+    
+      <category term=".NET" scheme="http://arcadiusk.com/tags/NET/"/>
+    
+      <category term="C#" scheme="http://arcadiusk.com/tags/C/"/>
+    
+      <category term="IMAP" scheme="http://arcadiusk.com/tags/IMAP/"/>
+    
+      <category term="Microsoft" scheme="http://arcadiusk.com/tags/Microsoft/"/>
+    
+      <category term="Windows" scheme="http://arcadiusk.com/tags/Windows/"/>
+    
+      <category term="cross-platform" scheme="http://arcadiusk.com/tags/cross-platform/"/>
+    
+      <category term="email" scheme="http://arcadiusk.com/tags/email/"/>
+    
+  </entry>
+  
+</feed>
