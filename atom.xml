@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Software Engineering]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://arcadiusk.com/"/>
-  <updated>2015-05-18T07:56:57.000Z</updated>
+  <updated>2015-05-22T04:05:56.000Z</updated>
   <id>http://arcadiusk.com/</id>
   
   <author>
@@ -13,6 +13,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Developing Android Apps - Certificate of Completion]]></title>
+    <link href="http://arcadiusk.com/2015-05-22-Developing-Android-Apps-Certificate-of-Completion/"/>
+    <id>http://arcadiusk.com/2015-05-22-Developing-Android-Apps-Certificate-of-Completion/</id>
+    <published>2015-05-23T03:55:48.000Z</published>
+    <updated>2015-05-22T04:05:56.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="../images/Udacity-certificate.png" alt="Developing Android Apps - Certificate of Completion - Udacity" title="Developing Android Apps - Certificate of Completion - Udacity"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="../images/Udacity-certificate.png" alt="Developing Android Apps - Certificate of Completion - Udacity" title="Developing Androi]]>
+    </summary>
+    
+      <category term="Android" scheme="http://arcadiusk.com/tags/Android/"/>
+    
+      <category term="Google" scheme="http://arcadiusk.com/tags/Google/"/>
+    
+      <category term="Udacity" scheme="http://arcadiusk.com/tags/Udacity/"/>
+    
+      <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
+    
+      <category term="java" scheme="http://arcadiusk.com/tags/java/"/>
+    
+      <category term="phone" scheme="http://arcadiusk.com/tags/phone/"/>
+    
+      <category term="tablet" scheme="http://arcadiusk.com/tags/tablet/"/>
+    
+      <category term="verified" scheme="http://arcadiusk.com/tags/verified/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Arcadius Wiki Android App]]></title>
@@ -84,26 +114,32 @@
   </entry>
   
   <entry>
-    <title><![CDATA[Certificate of Completion - MongoDB for .NET Developers]]></title>
-    <link href="http://arcadiusk.com/2015-05-06-M101N-MongoDB-Certificate-of-Completion/"/>
-    <id>http://arcadiusk.com/2015-05-06-M101N-MongoDB-Certificate-of-Completion/</id>
-    <published>2015-05-07T02:32:48.000Z</published>
-    <updated>2015-05-22T03:27:08.000Z</updated>
-    <content type="html"><![CDATA[<h4 id="Certificate_of_Completion_M101N:_MongoDB_for_-NET_Developers">Certificate of Completion M101N: MongoDB for .NET Developers</h4><p><img src="../images/M101N-certificate.png" alt="Certificate of Completion M101N: MongoDB for .NET Developers" title="Certificate of Completion M101N: MongoDB for .NET Developers"></p>
+    <title><![CDATA[MongoDB Certificates of Completion]]></title>
+    <link href="http://arcadiusk.com/2015-05-07-MongoDB-Certificates-of-Completion/"/>
+    <id>http://arcadiusk.com/2015-05-07-MongoDB-Certificates-of-Completion/</id>
+    <published>2015-05-08T02:32:48.000Z</published>
+    <updated>2015-05-22T03:56:15.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="../images/M101J-certificate.png" alt="Certificate of Completion M101J: MongoDB for Java Developers" title="Certificate of Completion M101J: MongoDB for Java Developers"></p>
+<p><img src="../images/M101JS-certificate.png" alt="Certificate of Completion M101JS: MongoDB for Node.js Developers" title="Certificate of Completion M101JS: MongoDB for Node.js Developers"></p>
+<p><img src="../images/M101N-certificate.png" alt="Certificate of Completion M101N: MongoDB for .Net Developers" title="Certificate of Completion M101N: MongoDB for .Net Developers"></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h4 id="Certificate_of_Completion_M101N:_MongoDB_for_-NET_Developers">Certificate of Completion M101N: MongoDB for .NET Developers</h4><p><i]]>
+    <![CDATA[<p><img src="../images/M101J-certificate.png" alt="Certificate of Completion M101J: MongoDB for Java Developers" title="Certificate of Compl]]>
     </summary>
     
-      <category term="academy" scheme="http://arcadiusk.com/tags/academy/"/>
+      <category term=".Net" scheme="http://arcadiusk.com/tags/Net/"/>
+    
+      <category term="MongoDB" scheme="http://arcadiusk.com/tags/MongoDB/"/>
+    
+      <category term="University" scheme="http://arcadiusk.com/tags/University/"/>
     
       <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
     
-      <category term="framework" scheme="http://arcadiusk.com/tags/framework/"/>
-    
       <category term="fullstack" scheme="http://arcadiusk.com/tags/fullstack/"/>
     
-      <category term="javascript" scheme="http://arcadiusk.com/tags/javascript/"/>
+      <category term="java" scheme="http://arcadiusk.com/tags/java/"/>
+    
+      <category term="node.js" scheme="http://arcadiusk.com/tags/node-js/"/>
     
   </entry>
   
