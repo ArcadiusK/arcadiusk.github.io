@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Software Engineering]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://arcadiusk.com/"/>
-  <updated>2015-05-22T04:05:56.000Z</updated>
+  <updated>2015-05-24T03:40:41.000Z</updated>
   <id>http://arcadiusk.com/</id>
   
   <author>
@@ -15,11 +15,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Certificate of Completion - M101N: MongoDB for .NET Developers]]></title>
+    <link href="http://arcadiusk.com/2015-05-23-MongoDB-dotNET-Certificate-of-Completion/"/>
+    <id>http://arcadiusk.com/2015-05-23-MongoDB-dotNET-Certificate-of-Completion/</id>
+    <published>2015-05-24T02:32:48.000Z</published>
+    <updated>2015-05-24T03:40:41.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="../images/M101N-certificate.png" alt="Certificate of Completion M101N: MongoDB for .NET Developers" title="Certificate of Completion M101N: MongoDB for .NET Developers"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="../images/M101N-certificate.png" alt="Certificate of Completion M101N: MongoDB for .NET Developers" title="Certificate of Compl]]>
+    </summary>
+    
+      <category term=".NET" scheme="http://arcadiusk.com/tags/NET/"/>
+    
+      <category term="Certificate" scheme="http://arcadiusk.com/tags/Certificate/"/>
+    
+      <category term="MongoDB" scheme="http://arcadiusk.com/tags/MongoDB/"/>
+    
+      <category term="University" scheme="http://arcadiusk.com/tags/University/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Developing Android Apps - Certificate of Completion]]></title>
     <link href="http://arcadiusk.com/2015-05-22-Developing-Android-Apps-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-22-Developing-Android-Apps-Certificate-of-Completion/</id>
     <published>2015-05-23T03:55:48.000Z</published>
-    <updated>2015-05-22T04:05:56.000Z</updated>
+    <updated>2015-05-24T03:32:56.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../images/Udacity-certificate.png" alt="Developing Android Apps - Certificate of Completion - Udacity" title="Developing Android Apps - Certificate of Completion - Udacity"></p>
 ]]></content>
     <summary type="html">
@@ -45,11 +67,33 @@
   </entry>
   
   <entry>
+    <title><![CDATA[Certificate of Completion - M101JS: MongoDB for Node.js Developers]]></title>
+    <link href="http://arcadiusk.com/2015-05-09-MongoDB-Node-js-Certificate-of-Completion/"/>
+    <id>http://arcadiusk.com/2015-05-09-MongoDB-Node-js-Certificate-of-Completion/</id>
+    <published>2015-05-10T02:32:48.000Z</published>
+    <updated>2015-05-24T03:37:39.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="../images/M101JS-certificate.png" alt="Certificate of Completion M101JS: MongoDB for Node.js Developers" title="Certificate of Completion M101JS: MongoDB for Node.js Developers"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="../images/M101JS-certificate.png" alt="Certificate of Completion M101JS: MongoDB for Node.js Developers" title="Certificate of ]]>
+    </summary>
+    
+      <category term="Certificate" scheme="http://arcadiusk.com/tags/Certificate/"/>
+    
+      <category term="MongoDB" scheme="http://arcadiusk.com/tags/MongoDB/"/>
+    
+      <category term="Node.js" scheme="http://arcadiusk.com/tags/Node-js/"/>
+    
+      <category term="University" scheme="http://arcadiusk.com/tags/University/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Arcadius Wiki Android App]]></title>
     <link href="http://arcadiusk.com/2015-05-08-Arcadius-Wiki-Android-App/"/>
     <id>http://arcadiusk.com/2015-05-08-Arcadius-Wiki-Android-App/</id>
     <published>2015-05-09T02:25:11.000Z</published>
-    <updated>2015-05-18T07:56:57.000Z</updated>
+    <updated>2015-05-24T03:33:02.000Z</updated>
     <content type="html"><![CDATA[<h6 id="Description">Description</h6><p> Arcadius Wiki App fetches batches of random articles from Wikipedia using dictionary of English words. When the articles arrive the user has the choice (in the Settings Menu) to be notified by sound, vibration as well as on the Android Wear Watch. In addition to Wikipedia articles Arcadius Wiki App makes calls to Shutterstock API (with Authentication) to fetch corresponding photos.</p>
 <h6 id="App_Permissions">App Permissions</h6><p>Arcadius Wiki App uses the following 4 permissions:</p>
 <ol>
@@ -114,32 +158,24 @@
   </entry>
   
   <entry>
-    <title><![CDATA[MongoDB Certificates of Completion]]></title>
-    <link href="http://arcadiusk.com/2015-05-07-MongoDB-Certificates-of-Completion/"/>
-    <id>http://arcadiusk.com/2015-05-07-MongoDB-Certificates-of-Completion/</id>
+    <title><![CDATA[Certificate of Completion - M101J: MongoDB for Java Developers]]></title>
+    <link href="http://arcadiusk.com/2015-05-07-MongoDB-Certificate-of-Completion/"/>
+    <id>http://arcadiusk.com/2015-05-07-MongoDB-Certificate-of-Completion/</id>
     <published>2015-05-08T02:32:48.000Z</published>
-    <updated>2015-05-22T03:56:15.000Z</updated>
+    <updated>2015-05-24T03:39:55.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../images/M101J-certificate.png" alt="Certificate of Completion M101J: MongoDB for Java Developers" title="Certificate of Completion M101J: MongoDB for Java Developers"></p>
-<p><img src="../images/M101JS-certificate.png" alt="Certificate of Completion M101JS: MongoDB for Node.js Developers" title="Certificate of Completion M101JS: MongoDB for Node.js Developers"></p>
-<p><img src="../images/M101N-certificate.png" alt="Certificate of Completion M101N: MongoDB for .Net Developers" title="Certificate of Completion M101N: MongoDB for .Net Developers"></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><img src="../images/M101J-certificate.png" alt="Certificate of Completion M101J: MongoDB for Java Developers" title="Certificate of Compl]]>
     </summary>
     
-      <category term=".Net" scheme="http://arcadiusk.com/tags/Net/"/>
+      <category term="Certificate" scheme="http://arcadiusk.com/tags/Certificate/"/>
     
       <category term="MongoDB" scheme="http://arcadiusk.com/tags/MongoDB/"/>
     
       <category term="University" scheme="http://arcadiusk.com/tags/University/"/>
     
-      <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
-    
-      <category term="fullstack" scheme="http://arcadiusk.com/tags/fullstack/"/>
-    
       <category term="java" scheme="http://arcadiusk.com/tags/java/"/>
-    
-      <category term="node.js" scheme="http://arcadiusk.com/tags/node-js/"/>
     
   </entry>
   
@@ -148,7 +184,7 @@
     <link href="http://arcadiusk.com/2015-03-01-Fullstack-Academy-Certificate/"/>
     <id>http://arcadiusk.com/2015-03-01-Fullstack-Academy-Certificate/</id>
     <published>2015-03-02T03:32:48.000Z</published>
-    <updated>2015-05-24T02:58:15.000Z</updated>
+    <updated>2015-05-24T03:30:00.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../images/fullstack-cert.jpg" alt="Fullstack Academy of Code presents this Certificate of Completion to acknowledge your completion of the Full-Time Program (540 hours)" title="Fullstack Academy of Code presents this Certificate of Completion to acknowledge your completion of the Full-Time Program (540 hours)"></p>
 ]]></content>
     <summary type="html">
@@ -157,11 +193,11 @@
     
       <category term="Academy" scheme="http://arcadiusk.com/tags/Academy/"/>
     
+      <category term="Certificate" scheme="http://arcadiusk.com/tags/Certificate/"/>
+    
+      <category term="Code" scheme="http://arcadiusk.com/tags/Code/"/>
+    
       <category term="Fullstack" scheme="http://arcadiusk.com/tags/Fullstack/"/>
-    
-      <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
-    
-      <category term="code" scheme="http://arcadiusk.com/tags/code/"/>
     
       <category term="javascript" scheme="http://arcadiusk.com/tags/javascript/"/>
     
@@ -216,7 +252,7 @@
     <link href="http://arcadiusk.com/2015-02-16-Brisket-for-the-Web-a-Taste/"/>
     <id>http://arcadiusk.com/2015-02-16-Brisket-for-the-Web-a-Taste/</id>
     <published>2015-02-17T04:45:37.000Z</published>
-    <updated>2015-02-22T18:53:39.000Z</updated>
+    <updated>2015-05-24T03:32:26.000Z</updated>
     <content type="html"><![CDATA[<p>David Lucia and Wayne Warner from Bloomberg came down to Fullstack Academy of Code last Tuesday and presented their javascript framework that not many people know about.</p>
 <p>They called it Brisket because it was developed in-house so its name had to start with the letter “B” as in Bloomberg.</p>
 <p>Brisket is an isomorphic javascript framework that enables web developers to focus on application logic instead of the location of modules.</p>
@@ -260,21 +296,25 @@
   
   <entry>
     <title><![CDATA[Don't Deploy Your API Keys to Public Github Repos]]></title>
-    <link href="http://arcadiusk.com/2014-12-10-Don-t-deploy-your-API-keys-to-public-gihub-repos/"/>
-    <id>http://arcadiusk.com/2014-12-10-Don-t-deploy-your-API-keys-to-public-gihub-repos/</id>
+    <link href="http://arcadiusk.com/2014-12-10-Don-t-deploy-your-API-keys-to-public-github-repos/"/>
+    <id>http://arcadiusk.com/2014-12-10-Don-t-deploy-your-API-keys-to-public-github-repos/</id>
     <published>2014-12-10T05:58:33.000Z</published>
-    <updated>2015-02-22T16:53:15.000Z</updated>
-    <content type="html"><![CDATA[<p>Horror stories abound describing problems people have when crawlers intercept their API keys enabling malicious use. Take extra steps to ensure you never push your keys and secrets for public viewing in github.</p>
+    <updated>2015-05-24T03:28:02.000Z</updated>
+    <content type="html"><![CDATA[<p>Horror stories abound describing problems people have when crawlers intercept their API keys enabling malicious use. Take extra steps to ensure you never push your keys and secrets for public viewing in github.<br>Even if you deleted your repo containing secrets - consider them exposed because github cashes everything. The only way out of the mess once you push your keys to github - is to change them rendering the old ones unusable. </p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>Horror stories abound describing problems people have when crawlers intercept their API keys enabling malicious use. Take extra steps to ]]>
     </summary>
+    
+      <category term="API" scheme="http://arcadiusk.com/tags/API/"/>
     
       <category term="API key" scheme="http://arcadiusk.com/tags/API-key/"/>
     
       <category term="git" scheme="http://arcadiusk.com/tags/git/"/>
     
       <category term="github" scheme="http://arcadiusk.com/tags/github/"/>
+    
+      <category term="secrets" scheme="http://arcadiusk.com/tags/secrets/"/>
     
   </entry>
   
