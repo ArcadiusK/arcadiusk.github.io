@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Software Engineering]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://arcadiusk.com/"/>
-  <updated>2015-05-24T03:40:41.000Z</updated>
+  <updated>2015-05-24T23:56:36.000Z</updated>
   <id>http://arcadiusk.com/</id>
   
   <author>
@@ -19,20 +19,20 @@
     <link href="http://arcadiusk.com/2015-05-23-MongoDB-dotNET-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-23-MongoDB-dotNET-Certificate-of-Completion/</id>
     <published>2015-05-24T02:32:48.000Z</published>
-    <updated>2015-05-24T03:40:41.000Z</updated>
+    <updated>2015-05-24T23:56:36.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../images/M101N-certificate.png" alt="Certificate of Completion M101N: MongoDB for .NET Developers" title="Certificate of Completion M101N: MongoDB for .NET Developers"></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><img src="../images/M101N-certificate.png" alt="Certificate of Completion M101N: MongoDB for .NET Developers" title="Certificate of Compl]]>
     </summary>
     
-      <category term=".NET" scheme="http://arcadiusk.com/tags/NET/"/>
+      <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
     
-      <category term="Certificate" scheme="http://arcadiusk.com/tags/Certificate/"/>
+      <category term="dotNET" scheme="http://arcadiusk.com/tags/dotNET/"/>
     
-      <category term="MongoDB" scheme="http://arcadiusk.com/tags/MongoDB/"/>
+      <category term="mongoDB" scheme="http://arcadiusk.com/tags/mongoDB/"/>
     
-      <category term="University" scheme="http://arcadiusk.com/tags/University/"/>
+      <category term="university" scheme="http://arcadiusk.com/tags/university/"/>
     
   </entry>
   
@@ -41,26 +41,26 @@
     <link href="http://arcadiusk.com/2015-05-22-Developing-Android-Apps-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-22-Developing-Android-Apps-Certificate-of-Completion/</id>
     <published>2015-05-23T03:55:48.000Z</published>
-    <updated>2015-05-24T03:32:56.000Z</updated>
+    <updated>2015-05-24T23:56:49.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../images/Udacity-certificate.png" alt="Developing Android Apps - Certificate of Completion - Udacity" title="Developing Android Apps - Certificate of Completion - Udacity"></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><img src="../images/Udacity-certificate.png" alt="Developing Android Apps - Certificate of Completion - Udacity" title="Developing Androi]]>
     </summary>
     
-      <category term="Android" scheme="http://arcadiusk.com/tags/Android/"/>
-    
-      <category term="Google" scheme="http://arcadiusk.com/tags/Google/"/>
-    
-      <category term="Udacity" scheme="http://arcadiusk.com/tags/Udacity/"/>
+      <category term="android" scheme="http://arcadiusk.com/tags/android/"/>
     
       <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
+    
+      <category term="google" scheme="http://arcadiusk.com/tags/google/"/>
     
       <category term="java" scheme="http://arcadiusk.com/tags/java/"/>
     
       <category term="phone" scheme="http://arcadiusk.com/tags/phone/"/>
     
       <category term="tablet" scheme="http://arcadiusk.com/tags/tablet/"/>
+    
+      <category term="udacity" scheme="http://arcadiusk.com/tags/udacity/"/>
     
       <category term="verified" scheme="http://arcadiusk.com/tags/verified/"/>
     
@@ -71,20 +71,20 @@
     <link href="http://arcadiusk.com/2015-05-09-MongoDB-Node-js-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-09-MongoDB-Node-js-Certificate-of-Completion/</id>
     <published>2015-05-10T02:32:48.000Z</published>
-    <updated>2015-05-24T03:37:39.000Z</updated>
+    <updated>2015-05-24T23:57:10.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../images/M101JS-certificate.png" alt="Certificate of Completion M101JS: MongoDB for Node.js Developers" title="Certificate of Completion M101JS: MongoDB for Node.js Developers"></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><img src="../images/M101JS-certificate.png" alt="Certificate of Completion M101JS: MongoDB for Node.js Developers" title="Certificate of ]]>
     </summary>
     
-      <category term="Certificate" scheme="http://arcadiusk.com/tags/Certificate/"/>
+      <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
     
-      <category term="MongoDB" scheme="http://arcadiusk.com/tags/MongoDB/"/>
+      <category term="mongoDB" scheme="http://arcadiusk.com/tags/mongoDB/"/>
     
-      <category term="Node.js" scheme="http://arcadiusk.com/tags/Node-js/"/>
+      <category term="nodeJS" scheme="http://arcadiusk.com/tags/nodeJS/"/>
     
-      <category term="University" scheme="http://arcadiusk.com/tags/University/"/>
+      <category term="university" scheme="http://arcadiusk.com/tags/university/"/>
     
   </entry>
   
@@ -93,7 +93,7 @@
     <link href="http://arcadiusk.com/2015-05-08-Arcadius-Wiki-Android-App/"/>
     <id>http://arcadiusk.com/2015-05-08-Arcadius-Wiki-Android-App/</id>
     <published>2015-05-09T02:25:11.000Z</published>
-    <updated>2015-05-24T03:33:02.000Z</updated>
+    <updated>2015-05-24T23:57:26.000Z</updated>
     <content type="html"><![CDATA[<h6 id="Description">Description</h6><p> Arcadius Wiki App fetches batches of random articles from Wikipedia using dictionary of English words. When the articles arrive the user has the choice (in the Settings Menu) to be notified by sound, vibration as well as on the Android Wear Watch. In addition to Wikipedia articles Arcadius Wiki App makes calls to Shutterstock API (with Authentication) to fetch corresponding photos.</p>
 <h6 id="App_Permissions">App Permissions</h6><p>Arcadius Wiki App uses the following 4 permissions:</p>
 <ol>
@@ -147,13 +147,13 @@
     
       <category term="API" scheme="http://arcadiusk.com/tags/API/"/>
     
-      <category term="Android" scheme="http://arcadiusk.com/tags/Android/"/>
+      <category term="android" scheme="http://arcadiusk.com/tags/android/"/>
     
-      <category term="Google" scheme="http://arcadiusk.com/tags/Google/"/>
+      <category term="google" scheme="http://arcadiusk.com/tags/google/"/>
     
-      <category term="Shutterstock" scheme="http://arcadiusk.com/tags/Shutterstock/"/>
+      <category term="shutterstock" scheme="http://arcadiusk.com/tags/shutterstock/"/>
     
-      <category term="Wikipedia" scheme="http://arcadiusk.com/tags/Wikipedia/"/>
+      <category term="wikipedia" scheme="http://arcadiusk.com/tags/wikipedia/"/>
     
   </entry>
   
@@ -162,20 +162,20 @@
     <link href="http://arcadiusk.com/2015-05-07-MongoDB-Java-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-07-MongoDB-Java-Certificate-of-Completion/</id>
     <published>2015-05-08T02:32:48.000Z</published>
-    <updated>2015-05-24T03:39:55.000Z</updated>
+    <updated>2015-05-25T00:03:58.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../images/M101J-certificate.png" alt="Certificate of Completion M101J: MongoDB for Java Developers" title="Certificate of Completion M101J: MongoDB for Java Developers"></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><img src="../images/M101J-certificate.png" alt="Certificate of Completion M101J: MongoDB for Java Developers" title="Certificate of Compl]]>
     </summary>
     
-      <category term="Certificate" scheme="http://arcadiusk.com/tags/Certificate/"/>
-    
-      <category term="MongoDB" scheme="http://arcadiusk.com/tags/MongoDB/"/>
-    
       <category term="University" scheme="http://arcadiusk.com/tags/University/"/>
     
+      <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
+    
       <category term="java" scheme="http://arcadiusk.com/tags/java/"/>
+    
+      <category term="mongoDB" scheme="http://arcadiusk.com/tags/mongoDB/"/>
     
   </entry>
   
@@ -184,20 +184,20 @@
     <link href="http://arcadiusk.com/2015-03-01-Fullstack-Academy-Certificate/"/>
     <id>http://arcadiusk.com/2015-03-01-Fullstack-Academy-Certificate/</id>
     <published>2015-03-02T03:32:48.000Z</published>
-    <updated>2015-05-24T03:30:00.000Z</updated>
+    <updated>2015-05-25T00:03:59.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../images/fullstack-cert.jpg" alt="Fullstack Academy of Code presents this Certificate of Completion to acknowledge your completion of the Full-Time Program (540 hours)" title="Fullstack Academy of Code presents this Certificate of Completion to acknowledge your completion of the Full-Time Program (540 hours)"></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><img src="../images/fullstack-cert.jpg" alt="Fullstack Academy of Code presents this Certificate of Completion to acknowledge your comple]]>
     </summary>
     
-      <category term="Academy" scheme="http://arcadiusk.com/tags/Academy/"/>
+      <category term="academy" scheme="http://arcadiusk.com/tags/academy/"/>
     
-      <category term="Certificate" scheme="http://arcadiusk.com/tags/Certificate/"/>
+      <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
     
-      <category term="Code" scheme="http://arcadiusk.com/tags/Code/"/>
+      <category term="code" scheme="http://arcadiusk.com/tags/code/"/>
     
-      <category term="Fullstack" scheme="http://arcadiusk.com/tags/Fullstack/"/>
+      <category term="fullstack" scheme="http://arcadiusk.com/tags/fullstack/"/>
     
       <category term="javascript" scheme="http://arcadiusk.com/tags/javascript/"/>
     
@@ -208,7 +208,7 @@
     <link href="http://arcadiusk.com/2015-02-22-Fork-the-Brisket/"/>
     <id>http://arcadiusk.com/2015-02-22-Fork-the-Brisket/</id>
     <published>2015-02-22T21:52:58.000Z</published>
-    <updated>2015-02-24T17:01:56.000Z</updated>
+    <updated>2015-05-24T23:57:52.000Z</updated>
     <content type="html"><![CDATA[<p>Following previous article in which we tasted Bloomberg’s Brisket let’s now fork the repo from github, clone on to our machine and look at the code.</p>
 <h6 id="Assuming_you_have_Git_installed,_to_clone_directly_from_Bloomberg’s_Github_open_your_terminal_and_run_the_following:">Assuming you have Git installed, to clone directly from Bloomberg’s Github open your terminal and run the following:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/bloomberg/brisket.git</span><br></pre></td></tr></table></figure>
 <h6 id="Or,_assuming_you_have_node-js_and_node_package_manager_npm,_install_Yeoman:">Or, assuming you have node.js and node package manager npm, install Yeoman:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g yo</span><br></pre></td></tr></table></figure>
@@ -235,9 +235,9 @@
     <![CDATA[<p>Following previous article in which we tasted Bloomberg’s Brisket let’s now fork the repo from github, clone on to our machine and look a]]>
     </summary>
     
-      <category term="Bloomberg" scheme="http://arcadiusk.com/tags/Bloomberg/"/>
+      <category term="bloomberg" scheme="http://arcadiusk.com/tags/bloomberg/"/>
     
-      <category term="Brisket" scheme="http://arcadiusk.com/tags/Brisket/"/>
+      <category term="brisket" scheme="http://arcadiusk.com/tags/brisket/"/>
     
       <category term="framework" scheme="http://arcadiusk.com/tags/framework/"/>
     
@@ -252,7 +252,7 @@
     <link href="http://arcadiusk.com/2015-02-16-Brisket-for-the-Web-a-Taste/"/>
     <id>http://arcadiusk.com/2015-02-16-Brisket-for-the-Web-a-Taste/</id>
     <published>2015-02-17T04:45:37.000Z</published>
-    <updated>2015-05-24T03:32:26.000Z</updated>
+    <updated>2015-05-24T23:58:02.000Z</updated>
     <content type="html"><![CDATA[<p>David Lucia and Wayne Warner from Bloomberg came down to Fullstack Academy of Code last Tuesday and presented their javascript framework that not many people know about.</p>
 <p>They called it Brisket because it was developed in-house so its name had to start with the letter “B” as in Bloomberg.</p>
 <p>Brisket is an isomorphic javascript framework that enables web developers to focus on application logic instead of the location of modules.</p>
@@ -282,9 +282,9 @@
     <![CDATA[<p>David Lucia and Wayne Warner from Bloomberg came down to Fullstack Academy of Code last Tuesday and presented their javascript framework ]]>
     </summary>
     
-      <category term="Bloomberg" scheme="http://arcadiusk.com/tags/Bloomberg/"/>
+      <category term="bloomberg" scheme="http://arcadiusk.com/tags/bloomberg/"/>
     
-      <category term="Brisket" scheme="http://arcadiusk.com/tags/Brisket/"/>
+      <category term="brisket" scheme="http://arcadiusk.com/tags/brisket/"/>
     
       <category term="framework" scheme="http://arcadiusk.com/tags/framework/"/>
     
@@ -299,7 +299,7 @@
     <link href="http://arcadiusk.com/2014-12-10-Don-t-deploy-your-API-keys-to-public-github-repos/"/>
     <id>http://arcadiusk.com/2014-12-10-Don-t-deploy-your-API-keys-to-public-github-repos/</id>
     <published>2014-12-10T05:58:33.000Z</published>
-    <updated>2015-05-24T03:28:02.000Z</updated>
+    <updated>2015-05-24T23:58:17.000Z</updated>
     <content type="html"><![CDATA[<p>Horror stories abound describing problems people have when crawlers intercept their API keys enabling malicious use. Take extra steps to ensure you never push your keys and secrets for public viewing in github.<br>Even if you deleted your repo containing secrets - consider them exposed because github cashes everything. The only way out of the mess once you push your keys to github - is to change them rendering the old ones unusable. </p>
 ]]></content>
     <summary type="html">
@@ -307,8 +307,6 @@
     </summary>
     
       <category term="API" scheme="http://arcadiusk.com/tags/API/"/>
-    
-      <category term="API key" scheme="http://arcadiusk.com/tags/API-key/"/>
     
       <category term="git" scheme="http://arcadiusk.com/tags/git/"/>
     
@@ -323,7 +321,7 @@
     <link href="http://arcadiusk.com/2014-11-11-Best-IMAP-library-for-NET/"/>
     <id>http://arcadiusk.com/2014-11-11-Best-IMAP-library-for-NET/</id>
     <published>2014-11-11T05:44:15.000Z</published>
-    <updated>2015-02-23T16:55:09.000Z</updated>
+    <updated>2015-05-24T23:58:42.000Z</updated>
     <content type="html"><![CDATA[<p>If you need full access to your email supporting IMAP from .NET here is a very good open-source library called ImapX.</p>
 <p>ImapX is a cross-platform IMAP library for .NET supporting .Net 2.0 - 4.5, Mono and Windows Phone.</p>
 <p>Current stable version is ImapX 2.0.0.16 released on May 1, 2014.</p>
@@ -335,19 +333,19 @@
 <p>ImapX is a c]]>
     </summary>
     
-      <category term=".NET" scheme="http://arcadiusk.com/tags/NET/"/>
-    
-      <category term="C#" scheme="http://arcadiusk.com/tags/C/"/>
+      <category term="Csharp" scheme="http://arcadiusk.com/tags/Csharp/"/>
     
       <category term="IMAP" scheme="http://arcadiusk.com/tags/IMAP/"/>
     
-      <category term="Microsoft" scheme="http://arcadiusk.com/tags/Microsoft/"/>
+      <category term="crossPlatform" scheme="http://arcadiusk.com/tags/crossPlatform/"/>
     
-      <category term="Windows" scheme="http://arcadiusk.com/tags/Windows/"/>
-    
-      <category term="cross-platform" scheme="http://arcadiusk.com/tags/cross-platform/"/>
+      <category term="dotNET" scheme="http://arcadiusk.com/tags/dotNET/"/>
     
       <category term="email" scheme="http://arcadiusk.com/tags/email/"/>
+    
+      <category term="microsoft" scheme="http://arcadiusk.com/tags/microsoft/"/>
+    
+      <category term="windows" scheme="http://arcadiusk.com/tags/windows/"/>
     
   </entry>
   
