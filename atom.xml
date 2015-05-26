@@ -239,12 +239,14 @@
     <link href="http://arcadiusk.com/2015-03-01-Fullstack-Academy-Certificate/"/>
     <id>http://arcadiusk.com/2015-03-01-Fullstack-Academy-Certificate/</id>
     <published>2015-03-02T03:32:48.000Z</published>
-    <updated>2015-05-26T22:30:21.000Z</updated>
+    <updated>2015-05-26T22:31:55.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../../images/fullstack-cert.jpg" alt="Fullstack Academy of Code presents this Certificate of Completion to acknowledge your completion of the Full-Time Program (540 hours)" title="Fullstack Academy of Code presents this Certificate of Completion to acknowledge your completion of the Full-Time Program (540 hours)"></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><img src="../../images/fullstack-cert.jpg" alt="Fullstack Academy of Code presents this Certificate of Completion to acknowledge your com]]>
     </summary>
+    
+      <category term="academy" scheme="http://arcadiusk.com/tags/academy/"/>
     
       <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
     
@@ -263,7 +265,7 @@
     <link href="http://arcadiusk.com/2015-02-22-Fork-the-Brisket/"/>
     <id>http://arcadiusk.com/2015-02-22-Fork-the-Brisket/</id>
     <published>2015-02-22T21:52:58.000Z</published>
-    <updated>2015-05-25T23:38:21.000Z</updated>
+    <updated>2015-05-26T22:32:12.000Z</updated>
     <content type="html"><![CDATA[<p>Following previous article in which we tasted Bloomberg’s Brisket let’s now fork the repo from github, clone on to our machine and look at the code.</p>
 <h6 id="Assuming_you_have_Git_installed,_to_clone_directly_from_Bloomberg’s_Github_open_your_terminal_and_run_the_following:">Assuming you have Git installed, to clone directly from Bloomberg’s Github open your terminal and run the following:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/bloomberg/brisket.git</span><br></pre></td></tr></table></figure>
 <h6 id="Or,_assuming_you_have_node-js_and_node_package_manager_npm,_install_Yeoman:">Or, assuming you have node.js and node package manager npm, install Yeoman:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g yo</span><br></pre></td></tr></table></figure>
@@ -292,8 +294,6 @@
     
       <category term="bloomberg" scheme="http://arcadiusk.com/tags/bloomberg/"/>
     
-      <category term="brisket" scheme="http://arcadiusk.com/tags/brisket/"/>
-    
       <category term="framework" scheme="http://arcadiusk.com/tags/framework/"/>
     
       <category term="isomorphic" scheme="http://arcadiusk.com/tags/isomorphic/"/>
@@ -307,7 +307,7 @@
     <link href="http://arcadiusk.com/2015-02-16-Brisket-for-the-Web-a-Taste/"/>
     <id>http://arcadiusk.com/2015-02-16-Brisket-for-the-Web-a-Taste/</id>
     <published>2015-02-17T04:45:37.000Z</published>
-    <updated>2015-05-25T23:39:06.000Z</updated>
+    <updated>2015-05-26T22:32:06.000Z</updated>
     <content type="html"><![CDATA[<p>David Lucia and Wayne Warner from Bloomberg came down to Fullstack Academy of Code last Tuesday and presented their javascript framework that not many people know about.</p>
 <p>They called it Brisket because it was developed in-house so its name had to start with the letter “B” as in Bloomberg.</p>
 <p>Brisket is an isomorphic javascript framework that enables web developers to focus on application logic instead of the location of modules.</p>
@@ -338,8 +338,6 @@
     </summary>
     
       <category term="bloomberg" scheme="http://arcadiusk.com/tags/bloomberg/"/>
-    
-      <category term="brisket" scheme="http://arcadiusk.com/tags/brisket/"/>
     
       <category term="framework" scheme="http://arcadiusk.com/tags/framework/"/>
     
