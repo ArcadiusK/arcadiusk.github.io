@@ -70,7 +70,7 @@
     <link href="http://arcadiusk.com/2015-05-23-MongoDB-dotNET-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-23-MongoDB-dotNET-Certificate-of-Completion/</id>
     <published>2015-05-24T02:32:48.000Z</published>
-    <updated>2015-05-26T22:18:25.000Z</updated>
+    <updated>2015-05-26T22:18:54.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../../images/M101N-certificate.png" alt="Certificate of Completion M101N: MongoDB for .NET Developers" title="Certificate of Completion M101N: MongoDB for .NET Developers"></p>
 ]]></content>
     <summary type="html">
@@ -82,6 +82,8 @@
       <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
     
       <category term="dotNET" scheme="http://arcadiusk.com/tags/dotNET/"/>
+    
+      <category term="microsoft" scheme="http://arcadiusk.com/tags/microsoft/"/>
     
       <category term="mongoDB" scheme="http://arcadiusk.com/tags/mongoDB/"/>
     
@@ -376,7 +378,7 @@
     <link href="http://arcadiusk.com/2014-11-11-Best-IMAP-library-for-NET/"/>
     <id>http://arcadiusk.com/2014-11-11-Best-IMAP-library-for-NET/</id>
     <published>2014-11-11T05:44:15.000Z</published>
-    <updated>2015-05-26T22:16:32.000Z</updated>
+    <updated>2015-05-26T22:19:08.000Z</updated>
     <content type="html"><![CDATA[<p>If you need full access to your email supporting IMAP from .NET here is a very good open-source library called ImapX.</p>
 <p>ImapX is a cross-platform IMAP library for .NET supporting .Net 2.0 - 4.5, Mono and Windows Phone.</p>
 <p>Current stable version is ImapX 2.0.0.16 released on May 1, 2014.</p>
@@ -397,6 +399,8 @@
       <category term="dotNET" scheme="http://arcadiusk.com/tags/dotNET/"/>
     
       <category term="email" scheme="http://arcadiusk.com/tags/email/"/>
+    
+      <category term="microsoft" scheme="http://arcadiusk.com/tags/microsoft/"/>
     
       <category term="windows" scheme="http://arcadiusk.com/tags/windows/"/>
     
