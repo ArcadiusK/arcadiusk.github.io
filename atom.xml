@@ -150,7 +150,7 @@
     <link href="http://arcadiusk.com/2015-05-08-Arcadius-Wiki-Android-App/"/>
     <id>http://arcadiusk.com/2015-05-08-Arcadius-Wiki-Android-App/</id>
     <published>2015-05-09T02:25:11.000Z</published>
-    <updated>2015-05-26T21:32:47.000Z</updated>
+    <updated>2015-05-26T22:20:48.000Z</updated>
     <content type="html"><![CDATA[<h6 id="Description">Description</h6><p> Arcadius Wiki App fetches batches of random articles from Wikipedia using dictionary of English words. When the articles arrive the user has the choice (in the Settings Menu) to be notified by sound, vibration as well as on the Android Wear Watch. In addition to Wikipedia articles Arcadius Wiki App makes calls to Shutterstock API (with Authentication) to fetch corresponding photos.</p>
 <h6 id="App_Permissions">App Permissions</h6><p>Arcadius Wiki App uses the following 4 permissions:</p>
 <ol>
@@ -207,8 +207,6 @@
       <category term="java" scheme="http://arcadiusk.com/tags/java/"/>
     
       <category term="shutterstock" scheme="http://arcadiusk.com/tags/shutterstock/"/>
-    
-      <category term="wikipedia" scheme="http://arcadiusk.com/tags/wikipedia/"/>
     
   </entry>
   
