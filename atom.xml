@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Software Engineering]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://arcadiusk.com/"/>
-  <updated>2015-05-26T22:25:19.000Z</updated>
+  <updated>2015-05-26T22:27:37.000Z</updated>
   <id>http://arcadiusk.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://arcadiusk.com/2015-05-26-Winner-TechCrunch-Disrupt-2015-Hackathon/"/>
     <id>http://arcadiusk.com/2015-05-26-Winner-TechCrunch-Disrupt-2015-Hackathon/</id>
     <published>2015-05-26T04:00:12.000Z</published>
-    <updated>2015-05-26T22:25:19.000Z</updated>
+    <updated>2015-05-26T22:27:37.000Z</updated>
     <content type="html"><![CDATA[<p>Tech Crunch Disrupt 2015 Hackathon lasted 21 hours had 106 entrants and over 20 sponsors<br><img src="../../images/techcrunch-disrupt.jpg" alt="Tech Crunch Disrupt 2015 Hackathon lasted 21 hours had 106 entrants and over 20 sponsors" title="Tech Crunch Disrupt 2015 Hackathon lasted 21 hours had 106 entrants and over 20 sponsors"></p>
 <p>Our team’s submission Virtual Reality Map Explorer won a prize from Esri (click play below)</p>
 <video id="arcadiusVideo1" width="740" height="360" controls="controls" muted="muted" preload="none" loop="loop" poster="../../images/video-1-poster.jpg"><br> <source src="../../images/VR-Map-Explorer.mp4" type="video/mp4" alt="Virtual Reality Map Explorer won a prize from Esri" title="Virtual Reality Map Explorer won a prize from Esri"><!-- WebKit video    --><br></video>
@@ -45,13 +45,13 @@
     
       <category term="API" scheme="http://arcadiusk.com/tags/API/"/>
     
+      <category term="android" scheme="http://arcadiusk.com/tags/android/"/>
+    
       <category term="cardboard" scheme="http://arcadiusk.com/tags/cardboard/"/>
     
       <category term="code" scheme="http://arcadiusk.com/tags/code/"/>
     
       <category term="disrupt" scheme="http://arcadiusk.com/tags/disrupt/"/>
-    
-      <category term="google" scheme="http://arcadiusk.com/tags/google/"/>
     
       <category term="hackathon" scheme="http://arcadiusk.com/tags/hackathon/"/>
     
@@ -96,16 +96,16 @@
     <link href="http://arcadiusk.com/2015-05-22-Developing-Android-Apps-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-22-Developing-Android-Apps-Certificate-of-Completion/</id>
     <published>2015-05-23T03:55:48.000Z</published>
-    <updated>2015-05-26T22:25:33.000Z</updated>
+    <updated>2015-05-26T22:27:43.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../../images/Udacity-certificate.png" alt="Developing Android Apps - Certificate of Completion - Udacity" title="Developing Android Apps - Certificate of Completion - Udacity"></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><img src="../../images/Udacity-certificate.png" alt="Developing Android Apps - Certificate of Completion - Udacity" title="Developing And]]>
     </summary>
     
-      <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
+      <category term="android" scheme="http://arcadiusk.com/tags/android/"/>
     
-      <category term="google" scheme="http://arcadiusk.com/tags/google/"/>
+      <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
     
       <category term="java" scheme="http://arcadiusk.com/tags/java/"/>
     
@@ -146,7 +146,7 @@
     <link href="http://arcadiusk.com/2015-05-08-Arcadius-Wiki-Android-App/"/>
     <id>http://arcadiusk.com/2015-05-08-Arcadius-Wiki-Android-App/</id>
     <published>2015-05-09T02:25:11.000Z</published>
-    <updated>2015-05-26T22:25:02.000Z</updated>
+    <updated>2015-05-26T22:27:50.000Z</updated>
     <content type="html"><![CDATA[<h6 id="Description">Description</h6><p> Arcadius Wiki App fetches batches of random articles from Wikipedia using dictionary of English words. When the articles arrive the user has the choice (in the Settings Menu) to be notified by sound, vibration as well as on the Android Wear Watch. In addition to Wikipedia articles Arcadius Wiki App makes calls to Shutterstock API (with Authentication) to fetch corresponding photos.</p>
 <h6 id="App_Permissions">App Permissions</h6><p>Arcadius Wiki App uses the following 4 permissions:</p>
 <ol>
@@ -196,7 +196,7 @@
     
       <category term="API" scheme="http://arcadiusk.com/tags/API/"/>
     
-      <category term="google" scheme="http://arcadiusk.com/tags/google/"/>
+      <category term="android" scheme="http://arcadiusk.com/tags/android/"/>
     
       <category term="java" scheme="http://arcadiusk.com/tags/java/"/>
     
