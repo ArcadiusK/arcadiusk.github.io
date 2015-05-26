@@ -62,6 +62,72 @@
     <div id="main">
       
   
+    <article id="post-2015-05-26-Winner-TechCrunch-Disrupt-2015-Hackathon" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/2015-05-26-Winner-TechCrunch-Disrupt-2015-Hackathon/" class="article-date">
+  <time datetime="2015-05-26T04:00:12.000Z" itemprop="datePublished">May 26 2015</time>
+</a>
+		</span>
+		<span class="meta-elements author">Arcadius Kazimierski</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/2015-05-26-Winner-TechCrunch-Disrupt-2015-Hackathon/">Winner of the Tech Crunch Disrupt 2015 Hackathon - Virtual Reality Map Explorer</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>Tech Crunch Disrupt 2015 Hackathon lasted 21 hours had 106 entrants and over 20 sponsors<br><img src="../../images/techcrunch-disrupt.jpg" alt="Tech Crunch Disrupt 2015 Hackathon lasted 21 hours had 106 entrants and over 20 sponsors" title="Tech Crunch Disrupt 2015 Hackathon lasted 21 hours had 106 entrants and over 20 sponsors"></p>
+<p>Our team’s submission Virtual Reality Map Explorer won a prize from Esri (click play below)</p>
+<video id="arcadiusVideo1" width="740" height="360" controls="controls" muted="muted" preload="none" loop="loop" poster="../../images/video-1-poster.jpg"><br> <source src="../../images/VR-Map-Explorer.mp4" type="video/mp4" alt="Virtual Reality Map Explorer won a prize from Esri" title="Virtual Reality Map Explorer won a prize from Esri"><!-- WebKit video    --><br></video>
+
+<p>ESRI Environmental Systems Research Institute is an international supplier of Geographic Information System software, web GIS and geodatabase management applications<br><img src="../../images/esri.jpg" alt="ESRI Environmental Systems Research Institute is an international supplier of Geographic Information System software, web GIS and geodatabase management applications" title="ESRI Environmental Systems Research Institute is an international supplier of Geographic Information System software, web GIS and geodatabase management applications"></p>
+<p>Virtual Reality Map Explorer was built using Google Cardboard for Android phones<br><img src="../../images/cardboard1.jpg" alt="Virtual Reality Map Explorer was built using Google Cardboard for Android phones" title="Virtual Reality Map Explorer was built using Google Cardboard for Android phones"></p>
+<p><img src="../../images/cardboard2.jpg" alt="Virtual Reality Map Explorer was built using Google Cardboard for Android phones" title="Virtual Reality Map Explorer was built using Google Cardboard for Android phones"></p>
+<p><img src="../../images/cardboard3.jpg" alt="Virtual Reality Map Explorer was built using Google Cardboard for Android phones" title="Virtual Reality Map Explorer was built using Google Cardboard for Android phones"></p>
+<p><img src="../../images/cardboard4.jpg" alt="Virtual Reality Map Explorer was built using Google Cardboard for Android phones" title="Virtual Reality Map Explorer was built using Google Cardboard for Android phones"></p>
+<p>Esri API<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">Runnable task = <span class="keyword">new</span> Runnable() &#123;</span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">       <span class="keyword">try</span> &#123;</span><br><span class="line">           String[] queryArray = &#123;</span><br><span class="line">                         <span class="string">"http://services.arcgisonline.com/"</span> +</span><br><span class="line">                         <span class="string">"ArcGIS/rest/services/Demographics/"</span> +</span><br><span class="line">                         <span class="string">"USA_Average_Household_Size/MapServer/3"</span>, </span><br><span class="line">                         <span class="string">"AVGHHSZ_CY &gt; 3.5"</span>&#125;;</span><br><span class="line">           AsyncQueryTask asyncQuery = <span class="keyword">new</span> AsyncQueryTask();</span><br><span class="line">           asyncQuery.execute(queryArray);</span><br><span class="line">       &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">           e.printStackTrace();</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
+<p>Esri API Data Parameters (excerpt)<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">TOTPOP_CY      Total Population</span><br><span class="line">HHPOP_CY       Population in Households</span><br><span class="line">FAMPOP_CY      Population in Families </span><br><span class="line">GQPOP_CY       Population in Group Quarters </span><br><span class="line">POPDENS_CY     Population per Square Mile </span><br><span class="line">DIVINDX_CY     Diversity Index </span><br><span class="line">TOTHH_CY       Total Households </span><br><span class="line">AVGHHSZ_CY     Average Household Size </span><br><span class="line">FAMHH_CY       Total Family Households </span><br><span class="line">AVGFMSZ_CY     Average Family Size </span><br><span class="line">MEDHINC_CY     Median Household Income </span><br><span class="line">AVGHINC_CY     Average Household Income </span><br><span class="line">PCI_CY         Per Capita Income </span><br><span class="line">TOTHU_CY       Total Housing Units </span><br><span class="line">OWNER_CY       Owner Occupied Housing Units </span><br><span class="line">RENTER_CY      Renter Occupied Housing Units </span><br><span class="line">VACANT_CY      Vacant Housing Units </span><br><span class="line">MEDVAL_CY      Median Value of Owner Occupied Housing</span><br></pre></td></tr></table></figure></p>
+<p>Cardboard API<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onDrawEye</span><span class="params">(Eye eye)</span> </span>&#123;</span><br><span class="line">  glClearColor(<span class="number">0.5f</span>, <span class="number">0.8f</span>, <span class="number">0.9f</span>, <span class="number">1.0f</span>);</span><br><span class="line">  glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);</span><br><span class="line">  multiplyMM(view, <span class="number">0</span>, eye.getEyeView(), <span class="number">0</span>, camera, <span class="number">0</span>);</span><br><span class="line">  multiplyMV(lightPosInEyeSpace, <span class="number">0</span>, view, <span class="number">0</span>, LIGHT_POS_IN_WORLD_SPACE, <span class="number">0</span>);</span><br><span class="line">  <span class="keyword">float</span>[] perspective = eye.getPerspective(Z_NEAR, Z_FAR);</span><br><span class="line">  multiplyMM(modelView, <span class="number">0</span>, view, <span class="number">0</span>, modelFloor, <span class="number">0</span>);</span><br><span class="line">  multiplyMM(modelViewProjection, <span class="number">0</span>, perspective, <span class="number">0</span>, modelView, <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">  drawGround();</span><br><span class="line">  drawDemographicOverlay();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>Ground Vertex Shader<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">uniform mat4 u_MVPMatrix;</span><br><span class="line">uniform mat4 u_MVMatrix;</span><br><span class="line"></span><br><span class="line">attribute vec4 a_Position;</span><br><span class="line">attribute vec2 a_TexCoordinate;</span><br><span class="line"></span><br><span class="line">varying vec3 v_Position;</span><br><span class="line">varying vec2 v_TexCoordinate;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">   v_Position = vec3(u_MVMatrix * a_Position);</span><br><span class="line">   v_TexCoordinate = a_TexCoordinate;</span><br><span class="line">   gl_Position = u_MVPMatrix * a_Position;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>Ground Fragment Shader<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">uniform vec3 u_LightPos;</span><br><span class="line">uniform sampler2D u_Texture;</span><br><span class="line"></span><br><span class="line">varying vec3 v_Position;</span><br><span class="line">varying vec2 v_TexCoordinate;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">float</span> distance = length(u_LightPos - v_Position);</span><br><span class="line">    vec3 lightVector = normalize(u_LightPos - v_Position);</span><br><span class="line"> </span><br><span class="line">    gl_FragColor = texture2D(u_Texture, v_TexCoordinate);</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure></p>
+<h6 id="References_and_Resources">References and Resources</h6><p>TechCrunch Disrupt NY 2015 Hackathon<br><a href="http://techcrunch.com/events/disrupt-ny-hackathon-2015/" target="_blank" rel="external">http://techcrunch.com/events/disrupt-ny-hackathon-2015/</a></p>
+<p>VR Map Explorer<br><a href="http://challengepost.com/software/arcvrcardboard" target="_blank" rel="external">http://challengepost.com/software/arcvrcardboard</a><br><a href="https://github.com/skylight1/VR-Map-Explorer" target="_blank" rel="external">https://github.com/skylight1/VR-Map-Explorer</a></p>
+<p>Esri<br><a href="https://developers.arcgis.com/android/" target="_blank" rel="external">https://developers.arcgis.com/android/</a><br><a href="https://developers.arcgis.com/android/api-reference/reference/packages.html" target="_blank" rel="external">https://developers.arcgis.com/android/api-reference/reference/packages.html</a></p>
+<p>Google Cardboard<br><a href="https://www.google.com/get/cardboard/" target="_blank" rel="external">https://www.google.com/get/cardboard/</a></p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/API/">API</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/android/">android</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/cardboard/">cardboard</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/code/">code</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/disrupt/">disrupt</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/google/">google</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hackathon/">hackathon</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/techcrunch/">techcrunch</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/winner/">winner</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
     <article id="post-2015-05-22-Developing-Android-Apps-Certificate-of-Completion" class="post">
 	<footer class="entry-meta-header">
 		<span class="meta-elements date">
@@ -98,6 +164,96 @@
 			<span class="tags">
 				
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/android/">android</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/certificate/">certificate</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/google/">google</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/phone/">phone</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tablet/">tablet</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/udacity/">udacity</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/verified/">verified</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-2015-05-08-Arcadius-Wiki-Android-App" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/2015-05-08-Arcadius-Wiki-Android-App/" class="article-date">
+  <time datetime="2015-05-09T02:25:11.000Z" itemprop="datePublished">May 8 2015</time>
+</a>
+		</span>
+		<span class="meta-elements author">Arcadius Kazimierski</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/2015-05-08-Arcadius-Wiki-Android-App/">Arcadius Wiki Android App</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<h6 id="Description">Description</h6><p> Arcadius Wiki App fetches batches of random articles from Wikipedia using dictionary of English words. When the articles arrive the user has the choice (in the Settings Menu) to be notified by sound, vibration as well as on the Android Wear Watch. In addition to Wikipedia articles Arcadius Wiki App makes calls to Shutterstock API (with Authentication) to fetch corresponding photos.</p>
+<h6 id="App_Permissions">App Permissions</h6><p>Arcadius Wiki App uses the following 4 permissions:</p>
+<ol>
+<li><p>INTERNET to perform network access and three more permissions required by the sync adapter:</p>
+</li>
+<li><p>READ_SYNC_SETTINGS,</p>
+</li>
+<li><p>WRITE_SYNC_SETTINGS,</p>
+</li>
+<li><p>AUTHENTICATE_ACCOUNTS</p>
+</li>
+</ol>
+<h6 id="Content_Provider">Content Provider</h6><p>Arcadius Wiki App’s ContentProvider is called ArcWikiProvider using SQLite database called arcadius.db with one table called arcwiki.</p>
+<h6 id="Backend">Backend</h6><p>Arcadius Wiki App talks to two backend APIs:</p>
+<ol>
+<li><p>Wikipedia.org API</p>
+</li>
+<li><p>Shutterstock.com API</p>
+</li>
+</ol>
+<h6 id="Sync_Adapter_and_talking_over_network">Sync Adapter and talking over network</h6><p>Arcadius Wiki App uses HttpURLConnection via SyncAdapter called ArcWikiSyncAdapter for all the three calls: 1. to Wikipedia to fetch the article and 2. to Shutterstock twice: first to authenticate and get url for the matching keyword and second to fetch the photo from url obtained in the previous call.</p>
+<h6 id="Loader">Loader</h6><p>Arc Wiki App implements WIKIARTICLE_LOADER</p>
+<h6 id="User/App_State">User/App State</h6><p>Below are 4 examples of how Arc Wiki App correctly preserves and restores the app state:</p>
+<ol>
+<li><p>When an activity is displayed, the same activity appears on rotation.</p>
+</li>
+<li><p>User text input is preserved on rotation.</p>
+</li>
+<li><p>When the app is resumed after the device wakes from sleep (locked) state, the app returns the user to the exact state in which it was last used.</p>
+</li>
+<li><p>When the app is relaunched from Home or All Apps, the app restores the app state as closely as possible to the previous state.</p>
+</li>
+</ol>
+<h6 id="Notifications">Notifications</h6><p>Arcadius Wiki App uses notifications to indicate a context change when new batch of articles from Wikipedia arrived. User is notified by sound, vibration and on Android Wear Watch with message: “Arcadius Wiki ­- Check out the new articles <articlename>“. When user taps on the notification the user is taken to Arcadius Wiki App.</articlename></p>
+<h6 id="Share_Action_Provider">Share Action Provider</h6><p>Arcadius Wiki Appp implements ShareActionProvider to share articles with an outside application like messenger, email or note taking app.</p>
+<h6 id="Broadcast_Events_implementation">Broadcast Events implementation</h6><p>Arcadius Wiki App intercepts broadcast events and responds to them to display article content and photos properly.</p>
+<h6 id="Tablet_landscape_screenshot:">Tablet landscape screenshot:</h6><p><img src="../../images/Wiki-Tablet-Landscape.png" alt="Tablet landscape screenshot" title="Tablet landscape screenshot"></p>
+<h6 id="Tablet_portrait_screenshot:">Tablet portrait screenshot:</h6><p><img src="../../images/Wiki-Tablet-Portrait.png" alt="Tablet portrait screenshot" title="Tablet portrait screenshot"></p>
+<h6 id="Phone_details_landscape_screenshot:">Phone details landscape screenshot:</h6><p><img src="../../images/Wiki-Phone-Landscape.png" alt="Phone details landscape screenshot" title="Phone details landscape screenshot"></p>
+<h6 id="Phone_details_portrait_screenshot:">Phone details portrait screenshot:</h6><p><img src="../../images/Wiki-Phone-Portrait.png" alt="Phone details portrait screenshot" title="Phone details portrait screenshot"></p>
+<h6 id="Phone_main_landscape_screenshot:">Phone main landscape screenshot:</h6><p><img src="../../images/Wiki-Phone-Land-Main.png" alt="Phone main landscape screenshot" title="Phone main landscape screenshot"></p>
+<h6 id="Phone_main_portrait_screenshot:">Phone main portrait screenshot:</h6><p><img src="../../images/Wiki-Phone-Portrait-Main.png" alt="Phone main portrait screenshot" title="Phone main portrait screenshot"></p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/API/">API</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/android/">android</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/google/">google</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/shutterstock/">shutterstock</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wikipedia/">wikipedia</a></li></ul>
 
 			</span>
 		</div>
