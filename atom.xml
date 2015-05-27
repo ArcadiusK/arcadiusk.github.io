@@ -70,7 +70,7 @@
     <link href="http://arcadiusk.com/2015-05-23-MongoDB-dotNET-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-23-MongoDB-dotNET-Certificate-of-Completion/</id>
     <published>2015-05-24T02:32:48.000Z</published>
-    <updated>2015-05-27T01:42:28.000Z</updated>
+    <updated>2015-05-27T01:45:09.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../../images/M101N-certificate.png" alt="Certificate of Completion M101N: MongoDB for .NET Developers" title="Certificate of Completion M101N: MongoDB for .NET Developers"></p>
 ]]></content>
     <summary type="html">
@@ -85,6 +85,10 @@
     
       <category term="microsoft" scheme="http://arcadiusk.com/tags/microsoft/"/>
     
+      <category term="mongoDB" scheme="http://arcadiusk.com/tags/mongoDB/"/>
+    
+      <category term="university" scheme="http://arcadiusk.com/tags/university/"/>
+    
       <category term="windows" scheme="http://arcadiusk.com/tags/windows/"/>
     
   </entry>
@@ -94,7 +98,7 @@
     <link href="http://arcadiusk.com/2015-05-22-Developing-Android-Apps-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-22-Developing-Android-Apps-Certificate-of-Completion/</id>
     <published>2015-05-23T03:55:48.000Z</published>
-    <updated>2015-05-26T22:35:28.000Z</updated>
+    <updated>2015-05-27T01:44:51.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../../images/Udacity-certificate.png" alt="Developing Android Apps - Certificate of Completion - Udacity" title="Developing Android Apps - Certificate of Completion - Udacity"></p>
 ]]></content>
     <summary type="html">
@@ -113,6 +117,8 @@
     
       <category term="tablet" scheme="http://arcadiusk.com/tags/tablet/"/>
     
+      <category term="university" scheme="http://arcadiusk.com/tags/university/"/>
+    
       <category term="verified" scheme="http://arcadiusk.com/tags/verified/"/>
     
   </entry>
@@ -122,7 +128,7 @@
     <link href="http://arcadiusk.com/2015-05-09-MongoDB-Node-js-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-09-MongoDB-Node-js-Certificate-of-Completion/</id>
     <published>2015-05-10T02:32:48.000Z</published>
-    <updated>2015-05-27T01:42:17.000Z</updated>
+    <updated>2015-05-27T01:44:23.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../../images/M101JS-certificate.png" alt="Certificate of Completion M101JS: MongoDB for Node.js Developers" title="Certificate of Completion M101JS: MongoDB for Node.js Developers"></p>
 ]]></content>
     <summary type="html">
@@ -131,7 +137,11 @@
     
       <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
     
+      <category term="mongoDB" scheme="http://arcadiusk.com/tags/mongoDB/"/>
+    
       <category term="nodeJS" scheme="http://arcadiusk.com/tags/nodeJS/"/>
+    
+      <category term="university" scheme="http://arcadiusk.com/tags/university/"/>
     
   </entry>
   
@@ -140,7 +150,7 @@
     <link href="http://arcadiusk.com/2015-05-08-Arcadius-Wiki-Android-App/"/>
     <id>http://arcadiusk.com/2015-05-08-Arcadius-Wiki-Android-App/</id>
     <published>2015-05-09T02:25:11.000Z</published>
-    <updated>2015-05-26T22:29:50.000Z</updated>
+    <updated>2015-05-27T01:44:13.000Z</updated>
     <content type="html"><![CDATA[<h6 id="Description">Description</h6><p> Arcadius Wiki App fetches batches of random articles from Wikipedia using dictionary of English words. When the articles arrive the user has the choice (in the Settings Menu) to be notified by sound, vibration as well as on the Android Wear Watch. In addition to Wikipedia articles Arcadius Wiki App makes calls to Shutterstock API (with Authentication) to fetch corresponding photos.</p>
 <h6 id="App_Permissions">App Permissions</h6><p>Arcadius Wiki App uses the following 4 permissions:</p>
 <ol>
@@ -198,6 +208,10 @@
     
       <category term="shutterstock" scheme="http://arcadiusk.com/tags/shutterstock/"/>
     
+      <category term="udacity" scheme="http://arcadiusk.com/tags/udacity/"/>
+    
+      <category term="university" scheme="http://arcadiusk.com/tags/university/"/>
+    
       <category term="wikipedia" scheme="http://arcadiusk.com/tags/wikipedia/"/>
     
   </entry>
@@ -207,7 +221,7 @@
     <link href="http://arcadiusk.com/2015-05-07-MongoDB-Java-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-07-MongoDB-Java-Certificate-of-Completion/</id>
     <published>2015-05-08T02:32:48.000Z</published>
-    <updated>2015-05-27T01:42:08.000Z</updated>
+    <updated>2015-05-27T01:43:50.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../../images/M101J-certificate.png" alt="Certificate of Completion M101J: MongoDB for Java Developers" title="Certificate of Completion M101J: MongoDB for Java Developers"></p>
 ]]></content>
     <summary type="html">
@@ -218,6 +232,10 @@
     
       <category term="java" scheme="http://arcadiusk.com/tags/java/"/>
     
+      <category term="mongoDB" scheme="http://arcadiusk.com/tags/mongoDB/"/>
+    
+      <category term="university" scheme="http://arcadiusk.com/tags/university/"/>
+    
   </entry>
   
   <entry>
@@ -225,7 +243,7 @@
     <link href="http://arcadiusk.com/2015-03-01-Fullstack-Academy-Certificate/"/>
     <id>http://arcadiusk.com/2015-03-01-Fullstack-Academy-Certificate/</id>
     <published>2015-03-02T03:32:48.000Z</published>
-    <updated>2015-05-27T01:41:43.000Z</updated>
+    <updated>2015-05-27T01:43:31.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../../images/fullstack-cert.jpg" alt="Fullstack Academy of Code presents this Certificate of Completion to acknowledge your completion of the Full-Time Program (540 hours)" title="Fullstack Academy of Code presents this Certificate of Completion to acknowledge your completion of the Full-Time Program (540 hours)"></p>
 ]]></content>
     <summary type="html">
@@ -241,6 +259,8 @@
       <category term="fullstack" scheme="http://arcadiusk.com/tags/fullstack/"/>
     
       <category term="javascript" scheme="http://arcadiusk.com/tags/javascript/"/>
+    
+      <category term="university" scheme="http://arcadiusk.com/tags/university/"/>
     
   </entry>
   
