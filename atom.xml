@@ -70,7 +70,7 @@
     <link href="http://arcadiusk.com/2015-05-23-MongoDB-dotNET-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-23-MongoDB-dotNET-Certificate-of-Completion/</id>
     <published>2015-05-24T02:32:48.000Z</published>
-    <updated>2015-05-26T22:18:54.000Z</updated>
+    <updated>2015-05-27T01:42:28.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../../images/M101N-certificate.png" alt="Certificate of Completion M101N: MongoDB for .NET Developers" title="Certificate of Completion M101N: MongoDB for .NET Developers"></p>
 ]]></content>
     <summary type="html">
@@ -84,10 +84,6 @@
       <category term="dotNET" scheme="http://arcadiusk.com/tags/dotNET/"/>
     
       <category term="microsoft" scheme="http://arcadiusk.com/tags/microsoft/"/>
-    
-      <category term="mongoDB" scheme="http://arcadiusk.com/tags/mongoDB/"/>
-    
-      <category term="university" scheme="http://arcadiusk.com/tags/university/"/>
     
       <category term="windows" scheme="http://arcadiusk.com/tags/windows/"/>
     
@@ -126,7 +122,7 @@
     <link href="http://arcadiusk.com/2015-05-09-MongoDB-Node-js-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-09-MongoDB-Node-js-Certificate-of-Completion/</id>
     <published>2015-05-10T02:32:48.000Z</published>
-    <updated>2015-05-25T23:37:12.000Z</updated>
+    <updated>2015-05-27T01:42:17.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../../images/M101JS-certificate.png" alt="Certificate of Completion M101JS: MongoDB for Node.js Developers" title="Certificate of Completion M101JS: MongoDB for Node.js Developers"></p>
 ]]></content>
     <summary type="html">
@@ -135,11 +131,7 @@
     
       <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
     
-      <category term="mongoDB" scheme="http://arcadiusk.com/tags/mongoDB/"/>
-    
       <category term="nodeJS" scheme="http://arcadiusk.com/tags/nodeJS/"/>
-    
-      <category term="university" scheme="http://arcadiusk.com/tags/university/"/>
     
   </entry>
   
@@ -215,7 +207,7 @@
     <link href="http://arcadiusk.com/2015-05-07-MongoDB-Java-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-07-MongoDB-Java-Certificate-of-Completion/</id>
     <published>2015-05-08T02:32:48.000Z</published>
-    <updated>2015-05-25T23:59:42.000Z</updated>
+    <updated>2015-05-27T01:42:08.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../../images/M101J-certificate.png" alt="Certificate of Completion M101J: MongoDB for Java Developers" title="Certificate of Completion M101J: MongoDB for Java Developers"></p>
 ]]></content>
     <summary type="html">
@@ -226,10 +218,6 @@
     
       <category term="java" scheme="http://arcadiusk.com/tags/java/"/>
     
-      <category term="mongoDB" scheme="http://arcadiusk.com/tags/mongoDB/"/>
-    
-      <category term="university" scheme="http://arcadiusk.com/tags/university/"/>
-    
   </entry>
   
   <entry>
@@ -237,7 +225,7 @@
     <link href="http://arcadiusk.com/2015-03-01-Fullstack-Academy-Certificate/"/>
     <id>http://arcadiusk.com/2015-03-01-Fullstack-Academy-Certificate/</id>
     <published>2015-03-02T03:32:48.000Z</published>
-    <updated>2015-05-26T22:31:55.000Z</updated>
+    <updated>2015-05-27T01:41:43.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../../images/fullstack-cert.jpg" alt="Fullstack Academy of Code presents this Certificate of Completion to acknowledge your completion of the Full-Time Program (540 hours)" title="Fullstack Academy of Code presents this Certificate of Completion to acknowledge your completion of the Full-Time Program (540 hours)"></p>
 ]]></content>
     <summary type="html">
@@ -253,8 +241,6 @@
       <category term="fullstack" scheme="http://arcadiusk.com/tags/fullstack/"/>
     
       <category term="javascript" scheme="http://arcadiusk.com/tags/javascript/"/>
-    
-      <category term="university" scheme="http://arcadiusk.com/tags/university/"/>
     
   </entry>
   
