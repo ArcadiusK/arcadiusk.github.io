@@ -240,11 +240,39 @@
   </entry>
   
   <entry>
+    <title><![CDATA[edX MITx 15.390.1x: Entrepreneurship 101 - Certificate of Achievement]]></title>
+    <link href="http://arcadiusk.com/2015-04-04-EDX-MIT-Certificate-of-Achievement/"/>
+    <id>http://arcadiusk.com/2015-04-04-EDX-MIT-Certificate-of-Achievement/</id>
+    <published>2015-04-04T22:18:48.000Z</published>
+    <updated>2015-06-03T14:48:02.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="../../images/edX-15.390.1x-cert.jpg" alt="This is to certify that Arcadius Kazimierski successfully completed and received a passing grade in 15.390.1x: Entrepreneurship 101: Who is your customer? - a course of study offered by MITx, an online learning initiative of The Massachusetts Institute of Technology through edX." title="This is to certify that Arcadius Kazimierski successfully completed and received a passing grade in 15.390.1x: Entrepreneurship 101: Who is your customer? - a course of study offered by MITx, an online learning initiative of The Massachusetts Institute of Technology through edX."></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="../../images/edX-15.390.1x-cert.jpg" alt="This is to certify that Arcadius Kazimierski successfully completed and received a pa]]>
+    </summary>
+    
+      <category term="MIT" scheme="http://arcadiusk.com/tags/MIT/"/>
+    
+      <category term="MITx" scheme="http://arcadiusk.com/tags/MITx/"/>
+    
+      <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
+    
+      <category term="code" scheme="http://arcadiusk.com/tags/code/"/>
+    
+      <category term="edX" scheme="http://arcadiusk.com/tags/edX/"/>
+    
+      <category term="entrepreneurship" scheme="http://arcadiusk.com/tags/entrepreneurship/"/>
+    
+      <category term="university" scheme="http://arcadiusk.com/tags/university/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Fullstack Academy of Code Full-Time Program (540 hours) - Certificate of Completion]]></title>
     <link href="http://arcadiusk.com/2015-03-01-Fullstack-Academy-Certificate/"/>
     <id>http://arcadiusk.com/2015-03-01-Fullstack-Academy-Certificate/</id>
     <published>2015-03-02T03:32:48.000Z</published>
-    <updated>2015-05-27T01:43:31.000Z</updated>
+    <updated>2015-06-03T14:47:39.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../../images/fullstack-cert.jpg" alt="Fullstack Academy of Code presents this Certificate of Completion to acknowledge your completion of the Full-Time Program (540 hours)" title="Fullstack Academy of Code presents this Certificate of Completion to acknowledge your completion of the Full-Time Program (540 hours)"></p>
 ]]></content>
     <summary type="html">
@@ -270,7 +298,7 @@
     <link href="http://arcadiusk.com/2015-02-22-Fork-the-Brisket/"/>
     <id>http://arcadiusk.com/2015-02-22-Fork-the-Brisket/</id>
     <published>2015-02-22T21:52:58.000Z</published>
-    <updated>2015-05-26T22:35:12.000Z</updated>
+    <updated>2015-06-03T14:48:31.000Z</updated>
     <content type="html"><![CDATA[<p>Following previous article in which we tasted Bloomberg’s Brisket let’s now fork the repo from github, clone on to our machine and look at the code.</p>
 <h6 id="Assuming_you_have_Git_installed,_to_clone_directly_from_Bloomberg’s_Github_open_your_terminal_and_run_the_following:">Assuming you have Git installed, to clone directly from Bloomberg’s Github open your terminal and run the following:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/bloomberg/brisket.git</span><br></pre></td></tr></table></figure>
 <h6 id="Or,_assuming_you_have_node-js_and_node_package_manager_npm,_install_Yeoman:">Or, assuming you have node.js and node package manager npm, install Yeoman:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g yo</span><br></pre></td></tr></table></figure>
@@ -361,7 +389,7 @@
     <link href="http://arcadiusk.com/2014-12-10-Don-t-deploy-your-API-keys-to-public-github-repos/"/>
     <id>http://arcadiusk.com/2014-12-10-Don-t-deploy-your-API-keys-to-public-github-repos/</id>
     <published>2014-12-10T05:58:33.000Z</published>
-    <updated>2015-05-24T23:58:17.000Z</updated>
+    <updated>2015-06-03T14:48:41.000Z</updated>
     <content type="html"><![CDATA[<p>Horror stories abound describing problems people have when crawlers intercept their API keys enabling malicious use. Take extra steps to ensure you never push your keys and secrets for public viewing in github.<br>Even if you deleted your repo containing secrets - consider them exposed because github cashes everything. The only way out of the mess once you push your keys to github - is to change them rendering the old ones unusable. </p>
 ]]></content>
     <summary type="html">
@@ -383,7 +411,7 @@
     <link href="http://arcadiusk.com/2014-11-11-Best-IMAP-library-for-NET/"/>
     <id>http://arcadiusk.com/2014-11-11-Best-IMAP-library-for-NET/</id>
     <published>2014-11-11T05:44:15.000Z</published>
-    <updated>2015-05-26T22:19:08.000Z</updated>
+    <updated>2015-06-03T14:48:48.000Z</updated>
     <content type="html"><![CDATA[<p>If you need full access to your email supporting IMAP from .NET here is a very good open-source library called ImapX.</p>
 <p>ImapX is a cross-platform IMAP library for .NET supporting .Net 2.0 - 4.5, Mono and Windows Phone.</p>
 <p>Current stable version is ImapX 2.0.0.16 released on May 1, 2014.</p>
