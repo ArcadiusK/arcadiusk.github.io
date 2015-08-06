@@ -6,7 +6,7 @@
   <title>Arcadius Kazimierski&#39;s Software Engineering Blog</title>
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="Arcadius Kazimierski&apos;s Software Engineering Blog">
-<meta property="og:type" content="article">
+<meta property="og:type" content="website">
 <meta property="og:title" content="Arcadius Kazimierski's Software Engineering Blog">
 <meta property="og:url" content="http://arcadiusk.com/page/2/index.html">
 <meta property="og:site_name" content="Arcadius Kazimierski's Software Engineering Blog">
@@ -44,7 +44,7 @@
 		</ul>
 	</nav>
 	<div id="search-form-wrap">
-		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:http://arcadiusk.com"></form>
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://arcadiusk.com"></form>
 	</div>
 	<br>
 	<br>
@@ -61,6 +61,147 @@
 </header>
     <div id="main">
       
+  
+    <article id="post-2015-02-22-Fork-the-Brisket" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/2015-02-22-Fork-the-Brisket/" class="article-date">
+  <time datetime="2015-02-22T21:52:58.000Z" itemprop="datePublished">Feb 22 2015</time>
+</a>
+		</span>
+		<span class="meta-elements author">Arcadius Kazimierski</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/2015-02-22-Fork-the-Brisket/">Fork the Brisket</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>Following previous article in which we tasted Bloomberg’s Brisket let’s now fork the repo from github, clone on to our machine and look at the code.</p>
+<h6 id="Assuming_you_have_Git_installed,_to_clone_directly_from_Bloomberg’s_Github_open_your_terminal_and_run_the_following:">Assuming you have Git installed, to clone directly from Bloomberg’s Github open your terminal and run the following:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/bloomberg/brisket.git</span><br></pre></td></tr></table></figure>
+<h6 id="Or,_assuming_you_have_node-js_and_node_package_manager_npm,_install_Yeoman:">Or, assuming you have node.js and node package manager npm, install Yeoman:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g yo</span><br></pre></td></tr></table></figure>
+<h6 id="To_install_generator-brisket_run:">To install generator-brisket run:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g generator-brisket</span><br></pre></td></tr></table></figure>
+<h6 id="Create_a_directory_for_your_application:">Create a directory for your application:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir firstapp</span><br><span class="line"><span class="built_in">cd</span> firstapp</span><br></pre></td></tr></table></figure>
+<h6 id="Generate_using_previously_installed_Yeoman:">Generate using previously installed Yeoman:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yo brisket</span><br></pre></td></tr></table></figure>
+<h6 id="Run_your_application_via_grunt:">Run your application via grunt:</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grunt</span><br></pre></td></tr></table></figure>
+<p>The Brisket application will be available at port 8080. This is how it looks like in the browser. Note the Chrome browser developer tools on the right showing console logging from the code shown below:</p>
+<p><img src="../../images/b1_browser.png" alt="Brisket in the Browser"></p>
+<p>Let’s take a look at the folder structure. This is how it looks right after generating:</p>
+<p><img src="../../images/b1_folders.png" alt="Brisket Folder Structure"></p>
+<p>After expanding folder structure under app/javascripts you can see the contents of ServerApp.js and ClientApp.js:</p>
+<p><img src="../../images/b2_folders.png" alt="Brisket Server and Client Code"></p>
+<p>You can see above separate files for ServerApp.js and ClientApp.js. Those files provide ability to customize your server and client - unshared 10% of the codebase for each one.</p>
+<p>Brisket provides Express.js engine and it’s built on Backbone.js which uses routers to assemble models and views in order to write to the page. In Brisket routers are responsible of returning Backbone view.</p>
+<p>First request from the browser is sent to Express.js which then forwards the request to your application (also called backbone rendering engine). It takes request as an input and returns a single view.</p>
+<p>Brisket uses promises instead of callbacks so after fetching data it returns a promise of a view. Eventually the view is passed to the server renderer and combined with the layout then returned back to the browser as HTML.</p>
+<p>When the browser receives the view, the application picks up where it left off (after initial request), and can handle user input. Any user manipulation (second request) is handled by the application in the browser rather than going all the way to the server.</p>
+<p>The application works the same as on the server because it can accept requests and returns views which are sent to the client renderer which updates the layout.</p>
+<p>Search Engine Optimization SEO is critical for Bloomberg therefore Brisket provides a functionality to add title and meta tags in an easy way.</p>
+<p>You can find the documentation in the readme file at <a href="https://github.com/bloomberg/brisket" target="_blank" rel="external">https://github.com/bloomberg/brisket</a></p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/bloomberg/">bloomberg</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/brisket/">brisket</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/framework/">framework</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/isomorphic/">isomorphic</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
+  
+    <article id="post-2015-02-16-Brisket-for-the-Web-a-Taste" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/2015-02-16-Brisket-for-the-Web-a-Taste/" class="article-date">
+  <time datetime="2015-02-17T04:45:37.000Z" itemprop="datePublished">Feb 16 2015</time>
+</a>
+		</span>
+		<span class="meta-elements author">Arcadius Kazimierski</span>
+		<div class="commentscount">
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 itemprop="name" class="entry-title">
+      <a class="article-title" href="/2015-02-16-Brisket-for-the-Web-a-Taste/">Brisket for the Web: a Taste</a>
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>David Lucia and Wayne Warner from Bloomberg came down to Fullstack Academy of Code last Tuesday and presented their javascript framework that not many people know about.</p>
+<p>They called it Brisket because it was developed in-house so its name had to start with the letter “B” as in Bloomberg.</p>
+<p>Brisket is an isomorphic javascript framework that enables web developers to focus on application logic instead of the location of modules.</p>
+<p>The cornerstone of isomorphic concept is sharing the code between the client and the server with the goal to leave only up to about 10 percent to each of the two. That is very different than 50/50 average.</p>
+<p>It was designed with the following principle in mind: to share templates, application logic, data models and more in order to create fast sites that render on the server side but feel like a single page application on the client side.</p>
+<p>Brisket is built on Backbone.js so it offers a familiar structure of models, views and controllers/routers. The difference is that instead of running in the browser, Brisket is environment neutral. </p>
+<p>Designed to use promises (rather than callbacks) makes the asynchronous code avoid “callback hell”.</p>
+<p>Other isomorphic javascript frameworks:</p>
+<p>Asana Luna<br><a href="https://asana.com/luna" target="_blank" rel="external">https://asana.com/luna</a><br> <img align="left" src="../../images/f_asana.png" alt="Asana Luna"><br><br><br></p>
+<p>Mojito<br><a href="https://developer.yahoo.com/cocktails/mojito/" target="_blank" rel="external">https://developer.yahoo.com/cocktails/mojito/</a><br> <img align="left" src="../../images/f_mojito.png" alt="Mojito"><br><br><br></p>
+<p>LoopBack<br><a href="http://loopback.io/" target="_blank" rel="external">http://loopback.io/</a><br> <img align="left" src="../../images/f_LoopBack.png" alt="LoopBack"><br> <br><br></p>
+<p>Invisible.js<br><a href="http://invisiblejs.github.io/" target="_blank" rel="external">http://invisiblejs.github.io/</a><br> <img align="left" src="../../images/f_invisible.png" alt="Invisible.js"><br><br><br></p>
+<p>Meteor<br><a href="https://www.meteor.com/" target="_blank" rel="external">https://www.meteor.com/</a><br> <img align="left" src="../../images/f_meteor.png" alt="Meteor"><br><br><br></p>
+<p>Rendr<br><a href="https://github.com/rendrjs/rendr" target="_blank" rel="external">https://github.com/rendrjs/rendr</a><br> <img align="left" src="../../images/f_rendr.png" alt="Rendr" height="50" width="170"><br><br><br></p>
+<p>React<br><a href="http://facebook.github.io/react/" target="_blank" rel="external">http://facebook.github.io/react/</a><br> <img align="left" src="../../images/f_react.png" alt="React"><br><br><br></p>
+<p>Derby<br><a href="http://derbyjs.com/" target="_blank" rel="external">http://derbyjs.com/</a><br> <img align="left" src="../../images/f_derby.png" alt="DERBY"><br><br><br></p>
+<p>Ezel<br><a href="http://ezeljs.com/" target="_blank" rel="external">http://ezeljs.com/</a><br> <img align="left" src="../../images/f_ezel.png" alt="Ezel"><br><br><br></p>
+<p>Cassis<br><a href="https://github.com/tantek/cassis/" target="_blank" rel="external">https://github.com/tantek/cassis/</a><br> <img align="left" src="../../images/f_cassis.png" alt="Cassis"><br> <br><br></p>
+<p>Este<br><a href="https://github.com/Steida/este" target="_blank" rel="external">https://github.com/Steida/este</a><br> <img align="left" src="../../images/f_este.png" alt="Este" height="50" width="170"><br><br><br></p>
+<p>Sara.js<br><a href="https://github.com/sarajs/Sara" target="_blank" rel="external">https://github.com/sarajs/Sara</a><br> <img align="left" src="../../images/f_sara.png" alt="Sara.js"><br><br><br></p>
+<p>Flatiron<br><a href="http://flatironjs.org/" target="_blank" rel="external">http://flatironjs.org/</a><br> <img align="left" src="../../images/f_flatiron.png" alt="flatiron for node.js" height="50" width="180"><br> <br><br></p>
+<p>MooTools<br><a href="http://mootools.net/" target="_blank" rel="external">http://mootools.net/</a><br> <img align="left" src="../../images/f_mootools.png" alt="mootools"><br><br><br></p>
+<p>Taunus<br><a href="https://github.com/taunus/taunus" target="_blank" rel="external">https://github.com/taunus/taunus</a><br> <img align="left" src="../../images/f_taunus.png" alt="Taunus"><br> <br><br></p>
+<p>Chaplin<br><a href="http://chaplinjs.org/" target="_blank" rel="external">http://chaplinjs.org/</a><br> <img align="left" src="../../images/f_chaplin.png" alt="Chaplin"><br> <br><br></p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/bloomberg/">bloomberg</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/brisket/">brisket</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/framework/">framework</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/isomorphic/">isomorphic</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li></ul>
+
+			</span>
+		</div>
+	</footer>
+	
+</article>
+
+
+	<hr class="article-devider">
+
+
+
   
     <article id="post-2014-12-10-Don-t-deploy-your-API-keys-to-public-github-repos" class="post">
 	<footer class="entry-meta-header">

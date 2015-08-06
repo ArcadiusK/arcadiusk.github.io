@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://arcadiusk.com/2015-05-07-MongoDB-Java-Certificate-of-Completion/</loc>
+    <lastmod>2015-08-06T00:00:17.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://arcadiusk.com/2015-08-05-MongoDB-for-DBAs-Certificate-of-Completion/</loc>
+    <lastmod>2015-08-05T23:59:15.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://arcadiusk.com/2015-08-06-MongoDB-Advanced-Deployment-and-Operations/</loc>
+    <lastmod>2015-08-05T23:58:19.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://arcadiusk.com/2015-05-22-Developing-Android-Apps-Certificate-of-Completion/</loc>
+    <lastmod>2015-08-05T23:57:44.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://arcadiusk.com/2015-05-09-MongoDB-Node-js-Certificate-of-Completion/</loc>
+    <lastmod>2015-08-05T23:57:00.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://arcadiusk.com/2015-05-23-MongoDB-dotNET-Certificate-of-Completion/</loc>
+    <lastmod>2015-08-05T23:56:38.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://arcadiusk.com/2014-11-11-Best-IMAP-library-for-NET/</loc>
     <lastmod>2015-06-03T14:48:48.000Z</lastmod>
   </url>
@@ -37,28 +67,8 @@
   </url>
   
   <url>
-    <loc>http://arcadiusk.com/2015-05-23-MongoDB-dotNET-Certificate-of-Completion/</loc>
-    <lastmod>2015-05-27T01:45:09.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://arcadiusk.com/2015-05-22-Developing-Android-Apps-Certificate-of-Completion/</loc>
-    <lastmod>2015-05-27T01:44:51.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://arcadiusk.com/2015-05-09-MongoDB-Node-js-Certificate-of-Completion/</loc>
-    <lastmod>2015-05-27T01:44:23.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://arcadiusk.com/2015-05-08-Arcadius-Wiki-Android-App/</loc>
     <lastmod>2015-05-27T01:44:13.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://arcadiusk.com/2015-05-07-MongoDB-Java-Certificate-of-Completion/</loc>
-    <lastmod>2015-05-27T01:43:50.000Z</lastmod>
   </url>
   
   <url>
