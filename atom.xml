@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[Arcadius Kazimierski's Software Engineering Blog]]></title>
+  <title><![CDATA[Arcadius Kazimierski - Software Engineering]]></title>
   <subtitle><![CDATA[Software Engineering]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://arcadiusk.com/"/>
-  <updated>2015-08-05T23:58:19.000Z</updated>
+  <updated>2015-08-07T02:50:13.000Z</updated>
   <id>http://arcadiusk.com/</id>
   
   <author>
@@ -15,15 +15,15 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[M202: MongoDB Advanced Deployment and Operations - Certificate of Completion]]></title>
-    <link href="http://arcadiusk.com/2015-08-06-MongoDB-Advanced-Deployment-and-Operations/"/>
-    <id>http://arcadiusk.com/2015-08-06-MongoDB-Advanced-Deployment-and-Operations/</id>
-    <published>2015-08-07T00:10:17.000Z</published>
-    <updated>2015-08-05T23:58:19.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="../../images/M202MongoDBAdvanced.png" alt="M202: MongoDB Advanced Deployment and Operations - Certificate of Completion" title="M202: MongoDB Advanced Deployment and Operations - Certificate of Completion"></p>
+    <title><![CDATA[M202: MongoDB Advanced Deployment and Operations - Final Grade 100% - Certificate of Completion]]></title>
+    <link href="http://arcadiusk.com/2015-08-07-MongoDB-Advanced-Deployment-and-Operations/"/>
+    <id>http://arcadiusk.com/2015-08-07-MongoDB-Advanced-Deployment-and-Operations/</id>
+    <published>2015-08-08T00:10:17.000Z</published>
+    <updated>2015-08-07T02:50:13.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="../../images/M202MongoDBAdvanced.png" alt="M202: MongoDB Advanced Deployment and Operations - Final Grade 100% - Certificate of Completion" title="M202: MongoDB Advanced Deployment and Operations - Final Grade 100% - Certificate of Completion"></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><img src="../../images/M202MongoDBAdvanced.png" alt="M202: MongoDB Advanced Deployment and Operations - Certificate of Completion" title=]]>
+    <![CDATA[<p><img src="../../images/M202MongoDBAdvanced.png" alt="M202: MongoDB Advanced Deployment and Operations - Final Grade 100% - Certificate of]]>
     </summary>
     
       <category term="administrator" scheme="http://arcadiusk.com/tags/administrator/"/>
@@ -43,15 +43,45 @@
   </entry>
   
   <entry>
-    <title><![CDATA[M102: MongoDB for DBAs - Certificate of Completion]]></title>
+    <title><![CDATA[Driving Business Results with Big Data - Final Grade 85% - openSAP Record of Achievement]]></title>
+    <link href="http://arcadiusk.com/2015-08-06-openSAP-Driving-Business-Results-with-Big-Data/"/>
+    <id>http://arcadiusk.com/2015-08-06-openSAP-Driving-Business-Results-with-Big-Data/</id>
+    <published>2015-08-07T02:10:17.000Z</published>
+    <updated>2015-08-07T02:57:11.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="../../images/openSapRecordOfAchievement.png" alt="Driving Business Results with Big Data - Final Grade 85% - openSAP Record of Achievement" title="Driving Business Results with Big Data - Final Grade 85% - openSAP Record of Achievement"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="../../images/openSapRecordOfAchievement.png" alt="Driving Business Results with Big Data - Final Grade 85% - openSAP Record of ]]>
+    </summary>
+    
+      <category term="SAP" scheme="http://arcadiusk.com/tags/SAP/"/>
+    
+      <category term="achievement" scheme="http://arcadiusk.com/tags/achievement/"/>
+    
+      <category term="big data" scheme="http://arcadiusk.com/tags/big-data/"/>
+    
+      <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
+    
+      <category term="data" scheme="http://arcadiusk.com/tags/data/"/>
+    
+      <category term="database" scheme="http://arcadiusk.com/tags/database/"/>
+    
+      <category term="openSAP" scheme="http://arcadiusk.com/tags/openSAP/"/>
+    
+      <category term="university" scheme="http://arcadiusk.com/tags/university/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[M102: MongoDB for DBAs - Final Grade 90% - Certificate of Completion]]></title>
     <link href="http://arcadiusk.com/2015-08-05-MongoDB-for-DBAs-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-08-05-MongoDB-for-DBAs-Certificate-of-Completion/</id>
     <published>2015-08-05T23:17:12.000Z</published>
-    <updated>2015-08-05T23:59:15.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="../../images/M102MongoDBforDBAs.png" alt="M102: MongoDB for DBAs - Certificate of Completion" title="M102: MongoDB for DBAs - Certificate of Completion"></p>
+    <updated>2015-08-07T02:58:11.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="../../images/M102MongoDBforDBAs.png" alt="M102: MongoDB for DBAs - Final Grade 90% - Certificate of Completion" title="M102: MongoDB for DBAs - Final Grade 90% - Certificate of Completion"></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><img src="../../images/M102MongoDBforDBAs.png" alt="M102: MongoDB for DBAs - Certificate of Completion" title="M102: MongoDB for DBAs - C]]>
+    <![CDATA[<p><img src="../../images/M102MongoDBforDBAs.png" alt="M102: MongoDB for DBAs - Final Grade 90% - Certificate of Completion" title="M102: Mo]]>
     </summary>
     
       <category term="DBA" scheme="http://arcadiusk.com/tags/DBA/"/>
@@ -121,15 +151,15 @@
   </entry>
   
   <entry>
-    <title><![CDATA[M101N: MongoDB for .NET Developers - Certificate of Completion]]></title>
+    <title><![CDATA[M101N: MongoDB for .NET Developers - Final Grade 90% - Certificate of Completion]]></title>
     <link href="http://arcadiusk.com/2015-05-23-MongoDB-dotNET-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-23-MongoDB-dotNET-Certificate-of-Completion/</id>
     <published>2015-05-24T02:32:48.000Z</published>
-    <updated>2015-08-05T23:56:38.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="../../images/M101N-certificate.png" alt="M101N: MongoDB for .NET Developers - Certificate of Completion" title="M101N: MongoDB for .NET Developers - Certificate of Completion"></p>
+    <updated>2015-08-07T13:26:00.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="../../images/M101N-certificate.png" alt="M101N: MongoDB for .NET Developers - Final Grade 90% - Certificate of Completion" title="M101N: MongoDB for .NET Developers - Final Grade 90% - Certificate of Completion"></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><img src="../../images/M101N-certificate.png" alt="M101N: MongoDB for .NET Developers - Certificate of Completion" title="M101N: MongoDB ]]>
+    <![CDATA[<p><img src="../../images/M101N-certificate.png" alt="M101N: MongoDB for .NET Developers - Final Grade 90% - Certificate of Completion" titl]]>
     </summary>
     
       <category term="Csharp" scheme="http://arcadiusk.com/tags/Csharp/"/>
@@ -181,15 +211,15 @@
   </entry>
   
   <entry>
-    <title><![CDATA[M101JS: MongoDB for Node.js Developers - Certificate of Completion]]></title>
+    <title><![CDATA[M101JS: MongoDB for Node.js Developers - Final Grade 100% - Certificate of Completion]]></title>
     <link href="http://arcadiusk.com/2015-05-09-MongoDB-Node-js-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-09-MongoDB-Node-js-Certificate-of-Completion/</id>
     <published>2015-05-10T02:32:48.000Z</published>
-    <updated>2015-08-05T23:57:00.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="../../images/M101JS-certificate.png" alt="M101JS: MongoDB for Node.js Developers - Certificate of Completion" title="M101JS: MongoDB for Node.js Developers - Certificate of Completion"></p>
+    <updated>2015-08-07T12:24:43.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="../../images/M101JS-certificate.png" alt="M101JS: MongoDB for Node.js Developers - Final Grade 100% - Certificate of Completion" title="M101JS: MongoDB for Node.js Developers - Final Grade 100% - Certificate of Completion"></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><img src="../../images/M101JS-certificate.png" alt="M101JS: MongoDB for Node.js Developers - Certificate of Completion" title="M101JS: Mo]]>
+    <![CDATA[<p><img src="../../images/M101JS-certificate.png" alt="M101JS: MongoDB for Node.js Developers - Final Grade 100% - Certificate of Completion]]>
     </summary>
     
       <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
@@ -276,15 +306,15 @@
   </entry>
   
   <entry>
-    <title><![CDATA[M101J: MongoDB for Java Developers - Certificate of Completion]]></title>
+    <title><![CDATA[M101J: MongoDB for Java Developers - Final Grade 95% - Certificate of Completion]]></title>
     <link href="http://arcadiusk.com/2015-05-07-MongoDB-Java-Certificate-of-Completion/"/>
     <id>http://arcadiusk.com/2015-05-07-MongoDB-Java-Certificate-of-Completion/</id>
     <published>2015-05-08T02:32:48.000Z</published>
-    <updated>2015-08-06T00:00:17.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="../../images/M101J-certificate.png" alt="M101J: MongoDB for Java Developers - Certificate of Completion" title="M101J: MongoDB for Java Developers - Certificate of Completion"></p>
+    <updated>2015-08-07T13:26:02.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="../../images/M101J-certificate.png" alt="M101J: MongoDB for Java Developers - Final Grade 95% - Certificate of Completion" title="M101J: MongoDB for Java Developers - Final Grade 95% - Certificate of Completion"></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><img src="../../images/M101J-certificate.png" alt="M101J: MongoDB for Java Developers - Certificate of Completion" title="M101J: MongoDB ]]>
+    <![CDATA[<p><img src="../../images/M101J-certificate.png" alt="M101J: MongoDB for Java Developers - Final Grade 95% - Certificate of Completion" titl]]>
     </summary>
     
       <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
