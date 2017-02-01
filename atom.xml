@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Software Engineering]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://arcadiusk.com/"/>
-  <updated>2015-08-07T02:50:13.000Z</updated>
+  <updated>2017-02-01T20:41:55.000Z</updated>
   <id>http://arcadiusk.com/</id>
   
   <author>
@@ -13,6 +13,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Udacity Android Developer Nanodegree - Graduation - Certificate of Completion]]></title>
+    <link href="http://arcadiusk.com/2016-06-03-Udacity-Android-Developer-Nanodegree-Certificate/"/>
+    <id>http://arcadiusk.com/2016-06-03-Udacity-Android-Developer-Nanodegree-Certificate/</id>
+    <published>2016-06-03T23:19:17.000Z</published>
+    <updated>2017-02-01T20:41:55.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="../../images/Udacity-Android-Nanodegree.png" alt="Udacity Android Developer Nanodegree - Graduation - Certificate of Completion" title="Udacity Android Developer Nanodegree - Graduation - Certificate of Completion"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="../../images/Udacity-Android-Nanodegree.png" alt="Udacity Android Developer Nanodegree - Graduation - Certificate of Completion]]>
+    </summary>
+    
+      <category term="advanced" scheme="http://arcadiusk.com/tags/advanced/"/>
+    
+      <category term="android" scheme="http://arcadiusk.com/tags/android/"/>
+    
+      <category term="certificate" scheme="http://arcadiusk.com/tags/certificate/"/>
+    
+      <category term="degree" scheme="http://arcadiusk.com/tags/degree/"/>
+    
+      <category term="developer" scheme="http://arcadiusk.com/tags/developer/"/>
+    
+      <category term="nanodegree" scheme="http://arcadiusk.com/tags/nanodegree/"/>
+    
+      <category term="program" scheme="http://arcadiusk.com/tags/program/"/>
+    
+      <category term="udacity" scheme="http://arcadiusk.com/tags/udacity/"/>
+    
+      <category term="university" scheme="http://arcadiusk.com/tags/university/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[M202: MongoDB Advanced Deployment and Operations - Final Grade 100% - Certificate of Completion]]></title>
